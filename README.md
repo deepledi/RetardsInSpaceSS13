@@ -1,5 +1,5 @@
 # Retards In Space
-Firesho = Gay
+cool game i guess lol, sandbox gamemode forced. Only sandbox. not a roleplay server! Doesn't has the proper setup for that!
 
 # What is this
 TGstation edit
