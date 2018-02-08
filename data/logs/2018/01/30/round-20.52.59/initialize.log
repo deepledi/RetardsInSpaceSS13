@@ -1,0 +1,39 @@
+Path : /mob/dview 
+- Didn't call atom/Initialize()
+- Didn't return an Initialize hint
+Path : /obj/item/toy/cards/deck/cas/black 
+- Didn't call atom/Initialize()
+- Didn't return an Initialize hint
+Path : /obj/effect/decal/cleanable/dirt 
+- Qdel'd in New()
+Path : /obj/item/organ/brain 
+- Qdel'd in New()
+Path : /obj/item/organ/heart 
+- Qdel'd in New()
+Path : /obj/item/organ/lungs 
+- Qdel'd in New()
+Path : /obj/item/organ/liver 
+- Qdel'd in New()
+Path : /obj/item/organ/stomach 
+- Qdel'd in New()
+Path : /obj/item/organ/appendix 
+- Qdel'd in New()
+Path : /obj/item/organ/eyes 
+- Qdel'd in New()
+Path : /obj/item/organ/ears 
+- Qdel'd in New()
+Path : /obj/item/organ/tongue 
+- Qdel'd in New()
+Path : /obj/screen/fullscreen/blind 
+- Qdel'd in New()
+Path : /obj/item/organ/tongue/bone 
+- Qdel'd in New()
+Path : /obj/effect/landmark/river_waypoint 
+- Qdel'd in New()
+Path : /turf/open/floor/plating/asteroid/airless/cave/volcanic/has_data 
+- Didn't return an Initialize hint
+Path : /turf/open/floor/plating/asteroid/airless/cave/volcanic 
+- Didn't return an Initialize hint
+Path : /mob/living/carbon/alien/humanoid/royal/queen 
+- Didn't return an Initialize hint
+

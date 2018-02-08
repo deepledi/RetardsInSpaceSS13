@@ -1,0 +1,963 @@
+
+
+Starting up round ID . 14:45:34
+---------------------
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+runtime error: 
+[14:45:36]cannot read from list
+[14:45:36]proc name: LoadJobs (/datum/controller/subsystem/job/proc/LoadJobs)
+[14:45:36]  source file: job.dm,448
+[14:45:36]  usr: null
+[14:45:36]  src: Jobs (/datum/controller/subsystem/job)
+[14:45:36]  call stack:
+[14:45:36]Jobs (/datum/controller/subsystem/job): LoadJobs()
+[14:45:36]Jobs (/datum/controller/subsystem/job): Initialize(639361)
+[14:45:36]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Jobs subsystem within 0.1 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Delta Station...
+runtime error: 
+[14:49:41]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:41]proc name: New (/obj/structure/glowshroom/New)
+[14:49:41]  source file: glowshroom.dm,63
+[14:49:41]  usr: null
+[14:49:41]  src: the glowshroom (/obj/structure/glowshroom/single)
+[14:49:41]  src.loc: Cave Floor (356,71,2) (/turf/open/floor/plating/asteroid)
+[14:49:41]  call stack:
+[14:49:41]the glowshroom (/obj/structure/glowshroom/single): New(Cave Floor (356,71,2) (/turf/open/floor/plating/asteroid), null, null)
+[14:49:41]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), Cave Floor (356,71,2) (/turf/open/floor/plating/asteroid))
+[14:49:41]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), Cave Floor (356,71,2) (/turf/open/floor/plating/asteroid), 1)
+[14:49:41]/dmm_suite (/dmm_suite): parse grid("/obj/structure/glowshroom/sing...", "eDD", 356, 71, 2, 1)
+[14:49:41]/dmm_suite (/dmm_suite): load map impl(_maps/map_files/Deltastation/D..., 1, 1, 2, null, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[14:49:41]/dmm_suite (/dmm_suite): load map(_maps/map_files/Deltastation/D..., 0, 0, 2, null, null, 1, null, null, null, null)
+[14:49:41]Mapping (/datum/controller/subsystem/mapping): TryLoadZ("_maps/map_files/Deltastation/D...", /list (/list), 2, null)
+[14:49:41]Mapping (/datum/controller/subsystem/mapping): loadWorld()
+[14:49:41]Mapping (/datum/controller/subsystem/mapping): Initialize(639363)
+[14:49:41]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[14:49:41]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:41]proc name: New (/obj/structure/glowshroom/New)
+[14:49:41]  source file: glowshroom.dm,63
+[14:49:41]  usr: null
+[14:49:41]  src: the glowshroom (/obj/structure/glowshroom/single)
+[14:49:41]  src.loc: Cave Floor (359,70,2) (/turf/open/floor/plating/asteroid)
+[14:49:41]  call stack:
+[14:49:41]the glowshroom (/obj/structure/glowshroom/single): New(Cave Floor (359,70,2) (/turf/open/floor/plating/asteroid), null, null)
+[14:49:41]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), Cave Floor (359,70,2) (/turf/open/floor/plating/asteroid))
+[14:49:41]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), Cave Floor (359,70,2) (/turf/open/floor/plating/asteroid), 1)
+[14:49:41]/dmm_suite (/dmm_suite): parse grid("/obj/structure/glowshroom/sing...", "eDD", 359, 70, 2, 1)
+[14:49:41]/dmm_suite (/dmm_suite): load map impl(_maps/map_files/Deltastation/D..., 1, 1, 2, null, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[14:49:41]/dmm_suite (/dmm_suite): load map(_maps/map_files/Deltastation/D..., 0, 0, 2, null, null, 1, null, null, null, null)
+[14:49:41]Mapping (/datum/controller/subsystem/mapping): TryLoadZ("_maps/map_files/Deltastation/D...", /list (/list), 2, null)
+[14:49:41]Mapping (/datum/controller/subsystem/mapping): loadWorld()
+[14:49:41]Mapping (/datum/controller/subsystem/mapping): Initialize(639363)
+[14:49:41]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[14:49:41]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:41]proc name: New (/obj/structure/glowshroom/New)
+[14:49:41]  source file: glowshroom.dm,63
+[14:49:41]  usr: null
+[14:49:41]  src: the glowshroom (/obj/structure/glowshroom/single)
+[14:49:41]  src.loc: Cave Floor (362,70,2) (/turf/open/floor/plating/asteroid)
+[14:49:41]  call stack:
+[14:49:41]the glowshroom (/obj/structure/glowshroom/single): New(Cave Floor (362,70,2) (/turf/open/floor/plating/asteroid), null, null)
+[14:49:41]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), Cave Floor (362,70,2) (/turf/open/floor/plating/asteroid))
+[14:49:41]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), Cave Floor (362,70,2) (/turf/open/floor/plating/asteroid), 1)
+[14:49:41]/dmm_suite (/dmm_suite): parse grid("/obj/structure/glowshroom/sing...", "eDD", 362, 70, 2, 1)
+[14:49:41]/dmm_suite (/dmm_suite): load map impl(_maps/map_files/Deltastation/D..., 1, 1, 2, null, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[14:49:41]/dmm_suite (/dmm_suite): load map(_maps/map_files/Deltastation/D..., 0, 0, 2, null, null, 1, null, null, null, null)
+[14:49:41]Mapping (/datum/controller/subsystem/mapping): TryLoadZ("_maps/map_files/Deltastation/D...", /list (/list), 2, null)
+[14:49:41]Mapping (/datum/controller/subsystem/mapping): loadWorld()
+[14:49:41]Mapping (/datum/controller/subsystem/mapping): Initialize(639363)
+[14:49:41]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[14:49:41]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:41]proc name: New (/obj/structure/glowshroom/New)
+[14:49:41]  source file: glowshroom.dm,63
+[14:49:41]  usr: null
+[14:49:41]  src: the glowshroom (/obj/structure/glowshroom/single)
+[14:49:41]  src.loc: Cave Floor (355,69,2) (/turf/open/floor/plating/asteroid)
+[14:49:41]  call stack:
+[14:49:41]the glowshroom (/obj/structure/glowshroom/single): New(Cave Floor (355,69,2) (/turf/open/floor/plating/asteroid), null, null)
+[14:49:41]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), Cave Floor (355,69,2) (/turf/open/floor/plating/asteroid))
+[14:49:41]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), Cave Floor (355,69,2) (/turf/open/floor/plating/asteroid), 1)
+[14:49:41]/dmm_suite (/dmm_suite): parse grid("/obj/structure/glowshroom/sing...", "eDD", 355, 69, 2, 1)
+[14:49:41]/dmm_suite (/dmm_suite): load map impl(_maps/map_files/Deltastation/D..., 1, 1, 2, null, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[14:49:41]/dmm_suite (/dmm_suite): load map(_maps/map_files/Deltastation/D..., 0, 0, 2, null, null, 1, null, null, null, null)
+[14:49:41]Mapping (/datum/controller/subsystem/mapping): TryLoadZ("_maps/map_files/Deltastation/D...", /list (/list), 2, null)
+[14:49:41]Mapping (/datum/controller/subsystem/mapping): loadWorld()
+[14:49:41]Mapping (/datum/controller/subsystem/mapping): Initialize(639363)
+[14:49:41]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[14:49:42]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:42]proc name: New (/obj/structure/glowshroom/New)
+[14:49:42]  source file: glowshroom.dm,63
+[14:49:42]  usr: null
+[14:49:42]  src: the glowshroom (/obj/structure/glowshroom/single)
+[14:49:42]  src.loc: Cave Floor (349,55,2) (/turf/open/floor/plating/asteroid)
+[14:49:42]  call stack:
+[14:49:42]the glowshroom (/obj/structure/glowshroom/single): New(Cave Floor (349,55,2) (/turf/open/floor/plating/asteroid), null, null)
+[14:49:42]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), Cave Floor (349,55,2) (/turf/open/floor/plating/asteroid))
+[14:49:42]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), Cave Floor (349,55,2) (/turf/open/floor/plating/asteroid), 1)
+[14:49:42]/dmm_suite (/dmm_suite): parse grid("/obj/structure/glowshroom/sing...", "eHK", 349, 55, 2, 1)
+[14:49:42]/dmm_suite (/dmm_suite): load map impl(_maps/map_files/Deltastation/D..., 1, 1, 2, null, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[14:49:42]/dmm_suite (/dmm_suite): load map(_maps/map_files/Deltastation/D..., 0, 0, 2, null, null, 1, null, null, null, null)
+[14:49:42]Mapping (/datum/controller/subsystem/mapping): TryLoadZ("_maps/map_files/Deltastation/D...", /list (/list), 2, null)
+[14:49:42]Mapping (/datum/controller/subsystem/mapping): loadWorld()
+[14:49:42]Mapping (/datum/controller/subsystem/mapping): Initialize(639363)
+[14:49:42]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[14:49:42]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:42]proc name: New (/obj/structure/glowshroom/New)
+[14:49:42]  source file: glowshroom.dm,63
+[14:49:42]  usr: null
+[14:49:42]  src: the glowshroom (/obj/structure/glowshroom/single)
+[14:49:42]  src.loc: Cave Floor (352,55,2) (/turf/open/floor/plating/asteroid)
+[14:49:42]  call stack:
+[14:49:42]the glowshroom (/obj/structure/glowshroom/single): New(Cave Floor (352,55,2) (/turf/open/floor/plating/asteroid), null, null)
+[14:49:42]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), Cave Floor (352,55,2) (/turf/open/floor/plating/asteroid))
+[14:49:42]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), Cave Floor (352,55,2) (/turf/open/floor/plating/asteroid), 1)
+[14:49:42]/dmm_suite (/dmm_suite): parse grid("/obj/structure/glowshroom/sing...", "eHK", 352, 55, 2, 1)
+[14:49:42]/dmm_suite (/dmm_suite): load map impl(_maps/map_files/Deltastation/D..., 1, 1, 2, null, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[14:49:42]/dmm_suite (/dmm_suite): load map(_maps/map_files/Deltastation/D..., 0, 0, 2, null, null, 1, null, null, null, null)
+[14:49:42]Mapping (/datum/controller/subsystem/mapping): TryLoadZ("_maps/map_files/Deltastation/D...", /list (/list), 2, null)
+[14:49:42]Mapping (/datum/controller/subsystem/mapping): loadWorld()
+[14:49:42]Mapping (/datum/controller/subsystem/mapping): Initialize(639363)
+[14:49:42]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[14:49:42]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:42]proc name: New (/obj/structure/glowshroom/New)
+[14:49:42]  source file: glowshroom.dm,63
+[14:49:42]  usr: null
+[14:49:42]  src: the glowshroom (/obj/structure/glowshroom/single)
+[14:49:42]  src.loc: Cave Floor (336,53,2) (/turf/open/floor/plating/asteroid)
+[14:49:42]  call stack:
+[14:49:42]the glowshroom (/obj/structure/glowshroom/single): New(Cave Floor (336,53,2) (/turf/open/floor/plating/asteroid), null, null)
+[14:49:42]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), Cave Floor (336,53,2) (/turf/open/floor/plating/asteroid))
+[14:49:42]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), Cave Floor (336,53,2) (/turf/open/floor/plating/asteroid), 1)
+[14:49:42]/dmm_suite (/dmm_suite): parse grid("/obj/structure/glowshroom/sing...", "eHK", 336, 53, 2, 1)
+[14:49:42]/dmm_suite (/dmm_suite): load map impl(_maps/map_files/Deltastation/D..., 1, 1, 2, null, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[14:49:42]/dmm_suite (/dmm_suite): load map(_maps/map_files/Deltastation/D..., 0, 0, 2, null, null, 1, null, null, null, null)
+[14:49:42]Mapping (/datum/controller/subsystem/mapping): TryLoadZ("_maps/map_files/Deltastation/D...", /list (/list), 2, null)
+[14:49:42]Mapping (/datum/controller/subsystem/mapping): loadWorld()
+[14:49:42]Mapping (/datum/controller/subsystem/mapping): Initialize(639363)
+[14:49:42]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[14:49:42]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:42]proc name: New (/obj/structure/glowshroom/New)
+[14:49:42]  source file: glowshroom.dm,63
+[14:49:42]  usr: null
+[14:49:42]  src: the glowshroom (/obj/structure/glowshroom/single)
+[14:49:42]  src.loc: Cave Floor (355,53,2) (/turf/open/floor/plating/asteroid)
+[14:49:42]  call stack:
+[14:49:42]the glowshroom (/obj/structure/glowshroom/single): New(Cave Floor (355,53,2) (/turf/open/floor/plating/asteroid), null, null)
+[14:49:42]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), Cave Floor (355,53,2) (/turf/open/floor/plating/asteroid))
+[14:49:42]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), Cave Floor (355,53,2) (/turf/open/floor/plating/asteroid), 1)
+[14:49:42]/dmm_suite (/dmm_suite): parse grid("/obj/structure/glowshroom/sing...", "eHK", 355, 53, 2, 1)
+[14:49:42]/dmm_suite (/dmm_suite): load map impl(_maps/map_files/Deltastation/D..., 1, 1, 2, null, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[14:49:42]/dmm_suite (/dmm_suite): load map(_maps/map_files/Deltastation/D..., 0, 0, 2, null, null, 1, null, null, null, null)
+[14:49:42]Mapping (/datum/controller/subsystem/mapping): TryLoadZ("_maps/map_files/Deltastation/D...", /list (/list), 2, null)
+[14:49:42]Mapping (/datum/controller/subsystem/mapping): loadWorld()
+[14:49:42]Mapping (/datum/controller/subsystem/mapping): Initialize(639363)
+[14:49:42]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[14:49:42]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:42]proc name: New (/obj/structure/glowshroom/New)
+[14:49:42]  source file: glowshroom.dm,63
+[14:49:42]  usr: null
+[14:49:42]  src: the glowshroom (/obj/structure/glowshroom/single)
+[14:49:42]  src.loc: Cave Floor (329,52,2) (/turf/open/floor/plating/asteroid)
+[14:49:42]  call stack:
+[14:49:42]the glowshroom (/obj/structure/glowshroom/single): New(Cave Floor (329,52,2) (/turf/open/floor/plating/asteroid), null, null)
+[14:49:42]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), Cave Floor (329,52,2) (/turf/open/floor/plating/asteroid))
+[14:49:42]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), Cave Floor (329,52,2) (/turf/open/floor/plating/asteroid), 1)
+[14:49:42]/dmm_suite (/dmm_suite): parse grid("/obj/structure/glowshroom/sing...", "eHK", 329, 52, 2, 1)
+[14:49:42]/dmm_suite (/dmm_suite): load map impl(_maps/map_files/Deltastation/D..., 1, 1, 2, null, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[14:49:42]/dmm_suite (/dmm_suite): load map(_maps/map_files/Deltastation/D..., 0, 0, 2, null, null, 1, null, null, null, null)
+[14:49:42]Mapping (/datum/controller/subsystem/mapping): TryLoadZ("_maps/map_files/Deltastation/D...", /list (/list), 2, null)
+[14:49:42]Mapping (/datum/controller/subsystem/mapping): loadWorld()
+[14:49:42]Mapping (/datum/controller/subsystem/mapping): Initialize(639363)
+[14:49:42]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[14:49:42]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:42]proc name: New (/obj/structure/glowshroom/New)
+[14:49:42]  source file: glowshroom.dm,63
+[14:49:42]  usr: null
+[14:49:42]  src: the glowshroom (/obj/structure/glowshroom/single)
+[14:49:42]  src.loc: Cave Floor (345,51,2) (/turf/open/floor/plating/asteroid)
+[14:49:42]  call stack:
+[14:49:42]the glowshroom (/obj/structure/glowshroom/single): New(Cave Floor (345,51,2) (/turf/open/floor/plating/asteroid), null, null)
+[14:49:42]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), Cave Floor (345,51,2) (/turf/open/floor/plating/asteroid))
+[14:49:42]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), Cave Floor (345,51,2) (/turf/open/floor/plating/asteroid), 1)
+[14:49:42]/dmm_suite (/dmm_suite): parse grid("/obj/structure/glowshroom/sing...", "eHK", 345, 51, 2, 1)
+[14:49:42]/dmm_suite (/dmm_suite): load map impl(_maps/map_files/Deltastation/D..., 1, 1, 2, null, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[14:49:42]/dmm_suite (/dmm_suite): load map(_maps/map_files/Deltastation/D..., 0, 0, 2, null, null, 1, null, null, null, null)
+[14:49:42]Mapping (/datum/controller/subsystem/mapping): TryLoadZ("_maps/map_files/Deltastation/D...", /list (/list), 2, null)
+[14:49:42]Mapping (/datum/controller/subsystem/mapping): loadWorld()
+[14:49:42]Mapping (/datum/controller/subsystem/mapping): Initialize(639363)
+[14:49:42]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[14:49:43]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:43]proc name: New (/obj/structure/glowshroom/New)
+[14:49:43]  source file: glowshroom.dm,63
+[14:49:43]  usr: null
+[14:49:43]  src: the glowshroom (/obj/structure/glowshroom/single)
+[14:49:43]  src.loc: Cave Floor (348,51,2) (/turf/open/floor/plating/asteroid)
+[14:49:43]  call stack:
+[14:49:43]the glowshroom (/obj/structure/glowshroom/single): New(Cave Floor (348,51,2) (/turf/open/floor/plating/asteroid), null, null)
+[14:49:43]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), Cave Floor (348,51,2) (/turf/open/floor/plating/asteroid))
+[14:49:43]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), Cave Floor (348,51,2) (/turf/open/floor/plating/asteroid), 1)
+[14:49:43]/dmm_suite (/dmm_suite): parse grid("/obj/structure/glowshroom/sing...", "eHK", 348, 51, 2, 1)
+[14:49:43]/dmm_suite (/dmm_suite): load map impl(_maps/map_files/Deltastation/D..., 1, 1, 2, null, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[14:49:43]/dmm_suite (/dmm_suite): load map(_maps/map_files/Deltastation/D..., 0, 0, 2, null, null, 1, null, null, null, null)
+[14:49:43]Mapping (/datum/controller/subsystem/mapping): TryLoadZ("_maps/map_files/Deltastation/D...", /list (/list), 2, null)
+[14:49:43]Mapping (/datum/controller/subsystem/mapping): loadWorld()
+[14:49:43]Mapping (/datum/controller/subsystem/mapping): Initialize(639363)
+[14:49:43]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[14:49:43]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:43]proc name: New (/obj/structure/glowshroom/New)
+[14:49:43]  source file: glowshroom.dm,63
+[14:49:43]  usr: null
+[14:49:43]  src: the glowshroom (/obj/structure/glowshroom/single)
+[14:49:43]  src.loc: Cave Floor (311,49,2) (/turf/open/floor/plating/asteroid)
+[14:49:43]  call stack:
+[14:49:43]the glowshroom (/obj/structure/glowshroom/single): New(Cave Floor (311,49,2) (/turf/open/floor/plating/asteroid), null, null)
+[14:49:43]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), Cave Floor (311,49,2) (/turf/open/floor/plating/asteroid))
+[14:49:43]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), Cave Floor (311,49,2) (/turf/open/floor/plating/asteroid), 1)
+[14:49:43]/dmm_suite (/dmm_suite): parse grid("/obj/structure/glowshroom/sing...", "eHK", 311, 49, 2, 1)
+[14:49:43]/dmm_suite (/dmm_suite): load map impl(_maps/map_files/Deltastation/D..., 1, 1, 2, null, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[14:49:43]/dmm_suite (/dmm_suite): load map(_maps/map_files/Deltastation/D..., 0, 0, 2, null, null, 1, null, null, null, null)
+[14:49:43]Mapping (/datum/controller/subsystem/mapping): TryLoadZ("_maps/map_files/Deltastation/D...", /list (/list), 2, null)
+[14:49:43]Mapping (/datum/controller/subsystem/mapping): loadWorld()
+[14:49:43]Mapping (/datum/controller/subsystem/mapping): Initialize(639363)
+[14:49:43]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[14:49:43]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:43]proc name: New (/obj/structure/glowshroom/New)
+[14:49:43]  source file: glowshroom.dm,63
+[14:49:43]  usr: null
+[14:49:43]  src: the glowshroom (/obj/structure/glowshroom/single)
+[14:49:43]  src.loc: Cave Floor (328,49,2) (/turf/open/floor/plating/asteroid)
+[14:49:43]  call stack:
+[14:49:43]the glowshroom (/obj/structure/glowshroom/single): New(Cave Floor (328,49,2) (/turf/open/floor/plating/asteroid), null, null)
+[14:49:43]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), Cave Floor (328,49,2) (/turf/open/floor/plating/asteroid))
+[14:49:43]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), Cave Floor (328,49,2) (/turf/open/floor/plating/asteroid), 1)
+[14:49:43]/dmm_suite (/dmm_suite): parse grid("/obj/structure/glowshroom/sing...", "eHK", 328, 49, 2, 1)
+[14:49:43]/dmm_suite (/dmm_suite): load map impl(_maps/map_files/Deltastation/D..., 1, 1, 2, null, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[14:49:43]/dmm_suite (/dmm_suite): load map(_maps/map_files/Deltastation/D..., 0, 0, 2, null, null, 1, null, null, null, null)
+[14:49:43]Mapping (/datum/controller/subsystem/mapping): TryLoadZ("_maps/map_files/Deltastation/D...", /list (/list), 2, null)
+[14:49:43]Mapping (/datum/controller/subsystem/mapping): loadWorld()
+[14:49:43]Mapping (/datum/controller/subsystem/mapping): Initialize(639363)
+[14:49:43]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[14:49:43]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:43]proc name: New (/obj/structure/glowshroom/New)
+[14:49:43]  source file: glowshroom.dm,63
+[14:49:43]  usr: null
+[14:49:43]  src: the glowshroom (/obj/structure/glowshroom/single)
+[14:49:43]  src.loc: Cave Floor (314,48,2) (/turf/open/floor/plating/asteroid)
+[14:49:43]  call stack:
+[14:49:43]the glowshroom (/obj/structure/glowshroom/single): New(Cave Floor (314,48,2) (/turf/open/floor/plating/asteroid), null, null)
+[14:49:43]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), Cave Floor (314,48,2) (/turf/open/floor/plating/asteroid))
+[14:49:43]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), Cave Floor (314,48,2) (/turf/open/floor/plating/asteroid), 1)
+[14:49:43]/dmm_suite (/dmm_suite): parse grid("/obj/structure/glowshroom/sing...", "eHK", 314, 48, 2, 1)
+[14:49:43]/dmm_suite (/dmm_suite): load map impl(_maps/map_files/Deltastation/D..., 1, 1, 2, null, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[14:49:43]/dmm_suite (/dmm_suite): load map(_maps/map_files/Deltastation/D..., 0, 0, 2, null, null, 1, null, null, null, null)
+[14:49:43]Mapping (/datum/controller/subsystem/mapping): TryLoadZ("_maps/map_files/Deltastation/D...", /list (/list), 2, null)
+[14:49:43]Mapping (/datum/controller/subsystem/mapping): loadWorld()
+[14:49:43]Mapping (/datum/controller/subsystem/mapping): Initialize(639363)
+[14:49:43]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[14:49:43]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:43]proc name: New (/obj/structure/glowshroom/New)
+[14:49:43]  source file: glowshroom.dm,63
+[14:49:43]  usr: null
+[14:49:43]  src: the glowshroom (/obj/structure/glowshroom/single)
+[14:49:43]  src.loc: Cave Floor (345,48,2) (/turf/open/floor/plating/asteroid)
+[14:49:43]  call stack:
+[14:49:43]the glowshroom (/obj/structure/glowshroom/single): New(Cave Floor (345,48,2) (/turf/open/floor/plating/asteroid), null, null)
+[14:49:43]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), Cave Floor (345,48,2) (/turf/open/floor/plating/asteroid))
+[14:49:43]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), Cave Floor (345,48,2) (/turf/open/floor/plating/asteroid), 1)
+[14:49:43]/dmm_suite (/dmm_suite): parse grid("/obj/structure/glowshroom/sing...", "eHK", 345, 48, 2, 1)
+[14:49:43]/dmm_suite (/dmm_suite): load map impl(_maps/map_files/Deltastation/D..., 1, 1, 2, null, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[14:49:43]/dmm_suite (/dmm_suite): load map(_maps/map_files/Deltastation/D..., 0, 0, 2, null, null, 1, null, null, null, null)
+[14:49:43]Mapping (/datum/controller/subsystem/mapping): TryLoadZ("_maps/map_files/Deltastation/D...", /list (/list), 2, null)
+[14:49:43]Mapping (/datum/controller/subsystem/mapping): loadWorld()
+[14:49:43]Mapping (/datum/controller/subsystem/mapping): Initialize(639363)
+[14:49:43]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[14:49:43]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:43]proc name: New (/obj/structure/glowshroom/New)
+[14:49:43]  source file: glowshroom.dm,63
+runtime error: 
+[14:49:43]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:43]proc name: New (/obj/structure/glowshroom/New)
+[14:49:43]  source file: glowshroom.dm,63
+runtime error: 
+[14:49:43]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:43]proc name: New (/obj/structure/glowshroom/New)
+[14:49:43]  source file: glowshroom.dm,63
+runtime error: 
+[14:49:43]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:43]proc name: New (/obj/structure/glowshroom/New)
+[14:49:43]  source file: glowshroom.dm,63
+runtime error: 
+[14:49:43]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:43]proc name: New (/obj/structure/glowshroom/New)
+[14:49:43]  source file: glowshroom.dm,63
+runtime error: 
+[14:49:43]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:43]proc name: New (/obj/structure/glowshroom/New)
+[14:49:43]  source file: glowshroom.dm,63
+runtime error: 
+[14:49:43]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:43]proc name: New (/obj/structure/glowshroom/New)
+[14:49:43]  source file: glowshroom.dm,63
+runtime error: 
+[14:49:43]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:43]proc name: New (/obj/structure/glowshroom/New)
+[14:49:43]  source file: glowshroom.dm,63
+runtime error: 
+[14:49:43]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:43]proc name: New (/obj/structure/glowshroom/New)
+[14:49:43]  source file: glowshroom.dm,63
+runtime error: 
+[14:49:44]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:44]proc name: New (/obj/structure/glowshroom/New)
+[14:49:44]  source file: glowshroom.dm,63
+runtime error: 
+[14:49:44]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:44]proc name: New (/obj/structure/glowshroom/New)
+[14:49:44]  source file: glowshroom.dm,63
+runtime error: 
+[14:49:44]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:44]proc name: New (/obj/structure/glowshroom/New)
+[14:49:44]  source file: glowshroom.dm,63
+runtime error: 
+[14:49:44]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:44]proc name: New (/obj/structure/glowshroom/New)
+[14:49:44]  source file: glowshroom.dm,63
+runtime error: 
+[14:49:44]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:44]proc name: New (/obj/structure/glowshroom/New)
+[14:49:44]  source file: glowshroom.dm,63
+runtime error: 
+[14:49:44]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:44]proc name: New (/obj/structure/glowshroom/New)
+[14:49:44]  source file: glowshroom.dm,63
+runtime error: 
+[14:49:44]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:44]proc name: New (/obj/structure/glowshroom/New)
+[14:49:44]  source file: glowshroom.dm,63
+runtime error: 
+[14:49:44]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:44]proc name: New (/obj/structure/glowshroom/New)
+[14:49:44]  source file: glowshroom.dm,63
+runtime error: 
+[14:49:44]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:44]proc name: New (/obj/structure/glowshroom/New)
+[14:49:44]  source file: glowshroom.dm,63
+runtime error: 
+[14:49:44]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:44]proc name: New (/obj/structure/glowshroom/New)
+[14:49:44]  source file: glowshroom.dm,63
+runtime error: 
+[14:49:44]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:44]proc name: New (/obj/structure/glowshroom/New)
+[14:49:44]  source file: glowshroom.dm,63
+runtime error: 
+[14:49:44]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:44]proc name: New (/obj/structure/glowshroom/New)
+[14:49:44]  source file: glowshroom.dm,63
+runtime error: 
+[14:49:45]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:45]proc name: New (/obj/structure/glowshroom/New)
+[14:49:45]  source file: glowshroom.dm,63
+runtime error: 
+[14:49:45]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:45]proc name: New (/obj/structure/glowshroom/New)
+[14:49:45]  source file: glowshroom.dm,63
+runtime error: 
+[14:49:45]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:45]proc name: New (/obj/structure/glowshroom/New)
+[14:49:45]  source file: glowshroom.dm,63
+runtime error: 
+[14:49:45]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:45]proc name: New (/obj/structure/glowshroom/New)
+[14:49:45]  source file: glowshroom.dm,63
+runtime error: 
+[14:49:45]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:45]proc name: New (/obj/structure/glowshroom/New)
+[14:49:45]  source file: glowshroom.dm,63
+runtime error: 
+[14:49:45]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:45]proc name: New (/obj/structure/glowshroom/New)
+[14:49:45]  source file: glowshroom.dm,63
+runtime error: 
+[14:49:45]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[14:49:45]proc name: New (/obj/structure/glowshroom/New)
+[14:49:45]  source file: glowshroom.dm,63
+Loaded station in 250.1s!
+Ruin "Hierophant's Arena" placed at (38, 200, 5)
+Ruin "Biodome Winter" placed at (192, 91, 5)
+Ruin "Ruin of Envy" placed at (226, 129, 5)
+Ruin "Blood-Drunk Miner (Guidance)" placed at (189, 177, 5)
+Ruin "Crashed Shuttle" placed at (244, 82, 5)
+Ruin "Ruin of Gluttony" placed at (174, 44, 5)
+Ruin "The Wishgranter Cube" placed at (226, 169, 5)
+Ruin "Ripley" placed at (152, 49, 5)
+Ruin "Salvation" placed at (300, 88, 4)
+Ruin "Asteroid 2" placed at (99, 240, 11)
+Ruin "Asteroid 4" placed at (57, 35, 9)
+Ruin "Survivalist Bunker" placed at (54, 239, 10)
+Ruin "Unnamed Turreted Outpost" placed at (109, 364, 10)
+Ruin "Biological Storage Facility" placed at (135, 77, 4)
+Ruin "Waylaid Buses" placed at (91, 217, 8)
+Ruin "Crashed Clown Ship" placed at (243, 221, 8)
+Ruin "Ancient Space Station" placed at (94, 253, 7)
+Ruin "NT Medical Ship" placed at (89, 291, 11)
+Ruin "A Giant Ball of Paper in Space" placed at (256, 344, 11)
+Ruin "Derelict 6" placed at (291, 315, 7)
+Ruin "Abandoned Teleporter" placed at (371, 267, 3)
+Ruin "Asteroid 1" placed at (340, 170, 10)
+Ruin "Authorship" placed at (172, 185, 11)
+Ruin "Derelict 1" placed at (132, 269, 10)
+Initialized Mapping subsystem within 265.3 seconds!
+runtime error: 
+[14:50:02]Cannot read null.temperature
+[14:50:02]proc name: Entered (/turf/Entered)
+[14:50:02]  source file: turf.dm,186
+runtime error: 
+[14:50:02]Cannot read null.temperature
+[14:50:02]proc name: Entered (/turf/Entered)
+[14:50:02]  source file: turf.dm,186
+runtime error: 
+[14:50:02]Cannot read null.temperature
+[14:50:02]proc name: Entered (/turf/Entered)
+[14:50:02]  source file: turf.dm,186
+runtime error: 
+[14:50:02]Cannot read null.temperature
+[14:50:02]proc name: Entered (/turf/Entered)
+[14:50:02]  source file: turf.dm,186
+runtime error: 
+[14:50:04]Cannot execute null.add reagent().
+[14:50:04]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[14:50:04]  source file: humans.dm,57
+runtime error: 
+[14:50:04]Cannot execute null.add reagent().
+[14:50:04]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[14:50:04]  source file: humans.dm,57
+runtime error: 
+[14:50:04]Cannot execute null.add reagent().
+[14:50:04]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[14:50:04]  source file: humans.dm,57
+runtime error: 
+[14:50:04]Cannot execute null.add reagent().
+[14:50:04]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[14:50:04]  source file: humans.dm,57
+runtime error: 
+[14:50:05]Cannot execute null.add reagent().
+[14:50:05]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:05]  source file: robots.dm,52
+runtime error: 
+[14:50:05]Cannot execute null.add reagent().
+[14:50:05]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:05]  source file: robots.dm,52
+runtime error: 
+[14:50:10]Cannot execute null.add reagent().
+[14:50:10]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:10]  source file: robots.dm,52
+runtime error: 
+[14:50:10]Cannot execute null.add reagent().
+[14:50:10]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:10]  source file: robots.dm,52
+runtime error: 
+[14:50:11]Cannot execute null.add reagent().
+[14:50:11]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:11]  source file: robots.dm,52
+runtime error: 
+[14:50:11]Cannot execute null.add reagent().
+[14:50:11]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[14:50:11]  source file: humans.dm,57
+runtime error: 
+[14:50:11]Cannot execute null.add reagent().
+[14:50:11]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:11]  source file: robots.dm,52
+runtime error: 
+[14:50:11]Cannot execute null.add reagent().
+[14:50:11]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[14:50:11]  source file: humans.dm,57
+runtime error: 
+[14:50:11]Cannot execute null.add reagent().
+[14:50:11]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:11]  source file: robots.dm,52
+runtime error: 
+[14:50:12]Cannot execute null.add reagent().
+[14:50:12]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[14:50:12]  source file: humans.dm,57
+runtime error: 
+[14:50:12]Cannot execute null.add reagent().
+[14:50:12]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:12]  source file: robots.dm,52
+runtime error: 
+[14:50:12]Cannot execute null.add reagent().
+[14:50:12]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:12]  source file: robots.dm,52
+runtime error: 
+[14:50:12]Cannot execute null.add reagent().
+[14:50:12]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:12]  source file: robots.dm,52
+runtime error: 
+[14:50:13]Cannot execute null.add reagent().
+[14:50:13]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:13]  source file: robots.dm,52
+runtime error: 
+[14:50:13]Cannot execute null.add reagent().
+[14:50:13]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:13]  source file: robots.dm,52
+runtime error: 
+[14:50:13]Cannot execute null.add reagent().
+[14:50:13]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:13]  source file: robots.dm,52
+runtime error: 
+[14:50:13]Cannot execute null.add reagent().
+[14:50:13]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:13]  source file: robots.dm,52
+runtime error: 
+[14:50:13]Cannot execute null.add reagent().
+[14:50:13]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:13]  source file: robots.dm,52
+runtime error: 
+[14:50:13]Cannot execute null.add reagent().
+[14:50:13]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:13]  source file: robots.dm,52
+runtime error: 
+[14:50:13]Cannot execute null.add reagent().
+[14:50:13]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:13]  source file: robots.dm,52
+runtime error: 
+[14:50:14]Cannot execute null.add reagent().
+[14:50:14]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:14]  source file: robots.dm,52
+runtime error: 
+[14:50:14]Cannot execute null.add reagent().
+[14:50:14]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:14]  source file: robots.dm,52
+runtime error: 
+[14:50:14]Cannot execute null.add reagent().
+[14:50:14]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:14]  source file: robots.dm,52
+runtime error: 
+[14:50:14]Cannot execute null.add reagent().
+[14:50:14]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:14]  source file: robots.dm,52
+runtime error: 
+[14:50:17]Cannot execute null.add reagent().
+[14:50:17]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:17]  source file: robots.dm,52
+runtime error: 
+[14:50:17]Cannot execute null.add reagent().
+[14:50:17]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:17]  source file: robots.dm,52
+runtime error: 
+[14:50:17]Cannot execute null.add reagent().
+[14:50:17]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:17]  source file: robots.dm,52
+runtime error: 
+[14:50:18]Cannot execute null.add reagent().
+[14:50:18]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:18]  source file: robots.dm,52
+runtime error: 
+[14:50:18]Cannot execute null.add reagent().
+[14:50:18]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:18]  source file: robots.dm,52
+runtime error: 
+[14:50:18]Cannot execute null.add reagent().
+[14:50:18]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:18]  source file: robots.dm,52
+runtime error: 
+[14:50:18]Cannot execute null.add reagent().
+[14:50:18]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:18]  source file: robots.dm,52
+runtime error: 
+[14:50:18]Cannot execute null.add reagent().
+[14:50:18]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:18]  source file: robots.dm,52
+runtime error: 
+[14:50:18]Cannot execute null.add reagent().
+[14:50:18]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:18]  source file: robots.dm,52
+runtime error: 
+[14:50:19]Cannot execute null.add reagent().
+[14:50:19]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:19]  source file: robots.dm,52
+runtime error: 
+[14:50:19]Cannot execute null.add reagent().
+[14:50:19]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:19]  source file: robots.dm,52
+runtime error: 
+[14:50:19]Cannot execute null.add reagent().
+[14:50:19]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:19]  source file: robots.dm,52
+runtime error: 
+[14:50:19]Cannot execute null.add reagent().
+[14:50:19]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:19]  source file: robots.dm,52
+runtime error: 
+[14:50:20]Cannot execute null.add reagent().
+[14:50:20]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:20]  source file: robots.dm,52
+runtime error: 
+[14:50:20]Cannot execute null.add reagent().
+[14:50:20]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:20]  source file: robots.dm,52
+runtime error: 
+[14:50:20]Cannot execute null.add reagent().
+[14:50:20]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:20]  source file: robots.dm,52
+runtime error: 
+[14:50:21]Cannot execute null.add reagent().
+[14:50:21]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:21]  source file: robots.dm,52
+runtime error: 
+[14:50:21]Cannot execute null.add reagent().
+[14:50:21]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[14:50:21]  source file: robots.dm,52
+runtime error: 
+[14:50:21]Cannot execute null.add reagent().
+[14:50:21]Warning: further proc crash messages are being suppressed to prevent overload...
+runtime error: 
+[14:50:21]Cannot execute null.add reagent().
+runtime error: 
+[14:50:21]Cannot execute null.add reagent().
+runtime error: 
+[14:50:22]Cannot execute null.add reagent().
+runtime error: 
+[14:50:22]Cannot execute null.add reagent().
+runtime error: 
+[14:50:22]Cannot execute null.add reagent().
+runtime error: 
+[14:50:23]Cannot execute null.add reagent().
+runtime error: 
+[14:50:24]Cannot execute null.add reagent().
+runtime error: 
+[14:50:24]Cannot execute null.add reagent().
+runtime error: 
+[14:50:25]Cannot execute null.add reagent().
+runtime error: 
+[14:50:25]Cannot execute null.add reagent().
+runtime error: 
+[14:50:25]Cannot execute null.add reagent().
+runtime error: 
+[14:50:25]Cannot execute null.add reagent().
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/structure/signpost/salvation/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/effect/landmark/error/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:30]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:31]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:31]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:31]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:31]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:31]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:31]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:31]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:31]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:31]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:31]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:31]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:31]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:31]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:31]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[14:50:31]Undefined variable /obj/structure/speaking_tile/var/swimming
+
+runtime error: 
+[14:50:31]Undefined variable /obj/machinery/abductor/gland_dispenser/var/swimming
+
+runtime error: 
+[14:50:31]Undefined variable /obj/structure/table/abductor/var/swimming
+
+runtime error: 
+[14:50:31]Undefined variable /obj/item/surgicaldrill/alien/var/swimming
+
+runtime error: 
+[14:50:32]undefined proc or verb /mob/living/simple_animal/bot/medbot/mysterious/remove overlay().
+
+runtime error: 
+[14:50:32]undefined proc or verb /mob/living/simple_animal/hostile/creature/remove overlay().
+
+runtime error: 
+[14:50:32]undefined proc or verb /mob/living/simple_animal/hostile/carp/cayenne/remove overlay().
+
+runtime error: 
+[14:50:33]undefined proc or verb /mob/dead/new_player/remove overlay().
+
+runtime error: 
+[14:50:40]undefined proc or verb /mob/living/simple_animal/bot/medbot/remove overlay().
+
+runtime error: 
+[14:50:40]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[14:50:40]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[14:50:40]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[14:50:40]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[14:50:40]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[14:50:40]undefined proc or verb /mob/living/simple_animal/pet/cat/Runtime/remove overlay().
+
+runtime error: 
+[14:50:40]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[14:50:41]undefined proc or verb /mob/living/simple_animal/pet/dog/pug/remove overlay().
+
+runtime error: 
+[14:50:41]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[14:50:41]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[14:50:41]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[14:50:41]undefined proc or verb /mob/living/simple_animal/slime/remove overlay().
+
+runtime error: 
+[14:50:41]undefined proc or verb /mob/living/simple_animal/slime/remove overlay().
+
+runtime error: 
+[14:50:41]undefined proc or verb /mob/living/simple_animal/slime/remove overlay().
+
+runtime error: 
+[14:50:41]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[14:50:42]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[14:50:42]undefined proc or verb /mob/living/simple_animal/pet/dog/corgi/Ian/remove overlay().
+
+runtime error: 
+[14:50:43]undefined proc or verb /mob/living/simple_animal/bot/secbot/pingsky/remove overlay().
+
+runtime error: 
+[14:50:43]undefined proc or verb /mob/living/simple_animal/parrot/Poly/remove overlay().
+
+runtime error: 
+[14:50:43]undefined proc or verb /mob/living/simple_animal/bot/secbot/beepsky/remove overlay().
+
+runtime error: 
+[14:50:43]undefined proc or verb /mob/living/simple_animal/pet/fox/Renault/remove overlay().
+
+runtime error: 
+[14:50:43]Cannot execute null.add reagent().
+runtime error: 
+[14:50:43]undefined proc or verb /mob/living/simple_animal/hostile/carp/cayenne/remove overlay().
+
+runtime error: 
+[14:50:44]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[14:50:44]undefined proc or verb /mob/living/simple_animal/hostile/retaliate/goat/remove overlay().
+
+runtime error: 
+[14:50:44]undefined proc or verb /mob/living/simple_animal/sloth/citrus/remove overlay().
+
+runtime error: 
+[14:50:44]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[14:50:44]undefined proc or verb /mob/living/simple_animal/mouse/remove overlay().
+
+runtime error: 
+[14:50:44]undefined proc or verb /mob/living/simple_animal/mouse/remove overlay().
+
+runtime error: 
+[14:50:44]undefined proc or verb /mob/living/simple_animal/bot/mulebot/remove overlay().
+
+runtime error: 
+[14:50:44]undefined proc or verb /mob/living/simple_animal/bot/mulebot/remove overlay().
+
+runtime error: 
+[14:50:44]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[14:50:44]undefined proc or verb /mob/living/simple_animal/hostile/lizard/remove overlay().
+
+runtime error: 
+[14:50:44]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[14:50:45]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[14:50:45]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[14:50:45]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[14:50:48]undefined proc or verb /mob/living/simple_animal/crab/remove overlay().
+
+runtime error: 
+[14:50:48]undefined proc or verb /mob/living/simple_animal/hostile/carp/remove overlay().
+
+runtime error: 
+[14:50:49]undefined proc or verb /mob/living/simple_animal/hostile/poison/bees/remove overlay().
+
+runtime error: 
+[14:50:49]undefined proc or verb /mob/living/simple_animal/hostile/poison/bees/remove overlay().
+
+runtime error: 
+[14:50:49]undefined proc or verb /mob/living/simple_animal/hostile/poison/bees/remove overlay().
+
+runtime error: 
+[14:50:49]undefined proc or verb /mob/living/simple_animal/hostile/poison/bees/remove overlay().
+
+runtime error: 
+[14:50:49]undefined proc or verb /mob/living/simple_animal/hostile/poison/bees/remove overlay().
+
+runtime error: 
+[14:50:49]undefined proc or verb /mob/living/simple_animal/hostile/poison/bees/remove overlay().
+
+runtime error: 
+[14:50:49]undefined proc or verb /mob/living/simple_animal/hostile/poison/bees/remove overlay().
+
+runtime error: 
+[14:50:49]undefined proc or verb /mob/living/simple_animal/hostile/asteroid/basilisk/remove overlay().
+

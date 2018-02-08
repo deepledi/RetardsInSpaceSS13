@@ -1,0 +1,713 @@
+
+
+Starting up round ID . 19:04:20
+---------------------
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+runtime error: 
+[19:04:21]cannot read from list
+[19:04:21]proc name: LoadJobs (/datum/controller/subsystem/job/proc/LoadJobs)
+[19:04:21]  source file: job.dm,448
+[19:04:21]  usr: null
+[19:04:21]  src: Jobs (/datum/controller/subsystem/job)
+[19:04:21]  call stack:
+[19:04:21]Jobs (/datum/controller/subsystem/job): LoadJobs()
+[19:04:21]Jobs (/datum/controller/subsystem/job): Initialize(794618)
+[19:04:21]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Jobs subsystem within 0.1 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Delta Station...
+Loaded station in 32.2s!
+Ruin "Hierophant's Arena" placed at (185, 68, 5)
+Ruin "Fountain Hall" placed at (164, 51, 5)
+Ruin "Ripley" placed at (117, 132, 5)
+Ruin "Ruin of Gluttony" placed at (168, 171, 5)
+Ruin "Free Golem Ship" placed at (90, 168, 5)
+Ruin "Ash Walker Nest" placed at (90, 125, 5)
+Ruin "Abandoned Teleporter" placed at (160, 33, 11)
+Ruin "Detached Teleporter" placed at (189, 205, 7)
+Ruin "Asteroid 3" placed at (71, 219, 9)
+Ruin "Derelict Tradepost" placed at (176, 58, 9)
+runtime error: 
+[19:05:01]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[19:05:01]proc name: New (/obj/structure/glowshroom/New)
+[19:05:01]  source file: glowshroom.dm,63
+[19:05:01]  usr: null
+[19:05:01]  src: the glowshroom (/obj/structure/glowshroom/single)
+[19:05:01]  src.loc: the floor (162,58,9) (/turf/open/floor/plasteel)
+[19:05:01]  call stack:
+[19:05:01]the glowshroom (/obj/structure/glowshroom/single): New(the floor (162,58,9) (/turf/open/floor/plasteel), null, null)
+[19:05:01]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the floor (162,58,9) (/turf/open/floor/plasteel))
+[19:05:01]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the floor (162,58,9) (/turf/open/floor/plasteel), 1)
+[19:05:01]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/alien/weeds{\...", "da", 162, 58, 9, 1)
+[19:05:01]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[19:05:01]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, null, null, null, null)
+[19:05:01]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (156,38,9) (/turf/open/space/basic), 1)
+[19:05:01]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[19:05:01]seedRuins(/list (/list), 13, /area/space (/area/space), /list (/list))
+[19:05:01]Mapping (/datum/controller/subsystem/mapping): Initialize(794619)
+[19:05:01]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[19:05:01]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[19:05:01]proc name: New (/obj/structure/glowshroom/New)
+[19:05:01]  source file: glowshroom.dm,63
+[19:05:01]  usr: null
+[19:05:01]  src: the glowshroom (/obj/structure/glowshroom/single)
+[19:05:01]  src.loc: the asteroid sand (166,56,9) (/turf/open/floor/plating/asteroid)
+[19:05:01]  call stack:
+[19:05:01]the glowshroom (/obj/structure/glowshroom/single): New(the asteroid sand (166,56,9) (/turf/open/floor/plating/asteroid), null, null)
+[19:05:01]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the asteroid sand (166,56,9) (/turf/open/floor/plating/asteroid))
+[19:05:01]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the asteroid sand (166,56,9) (/turf/open/floor/plating/asteroid), 1)
+[19:05:01]/dmm_suite (/dmm_suite): parse grid("\n/obj/effect/decal/cleanable/...", "dy", 166, 56, 9, 1)
+[19:05:01]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[19:05:01]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, null, null, null, null)
+[19:05:01]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (156,38,9) (/turf/open/space/basic), 1)
+[19:05:01]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[19:05:01]seedRuins(/list (/list), 13, /area/space (/area/space), /list (/list))
+[19:05:01]Mapping (/datum/controller/subsystem/mapping): Initialize(794619)
+[19:05:01]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[19:05:01]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[19:05:01]proc name: New (/obj/structure/glowshroom/New)
+[19:05:01]  source file: glowshroom.dm,63
+[19:05:01]  usr: null
+[19:05:01]  src: the glowshroom (/obj/structure/glowshroom/single)
+[19:05:01]  src.loc: the shuttle floor (170,65,9) (/turf/open/floor/mineral/titanium/blue)
+[19:05:01]  call stack:
+[19:05:01]the glowshroom (/obj/structure/glowshroom/single): New(the shuttle floor (170,65,9) (/turf/open/floor/mineral/titanium/blue), null, null)
+[19:05:01]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the shuttle floor (170,65,9) (/turf/open/floor/mineral/titanium/blue))
+[19:05:01]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the shuttle floor (170,65,9) (/turf/open/floor/mineral/titanium/blue), 1)
+[19:05:01]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/alien/weeds{\...", "bg", 170, 65, 9, 1)
+[19:05:01]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[19:05:01]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, null, null, null, null)
+[19:05:01]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (156,38,9) (/turf/open/space/basic), 1)
+[19:05:01]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[19:05:01]seedRuins(/list (/list), 13, /area/space (/area/space), /list (/list))
+[19:05:01]Mapping (/datum/controller/subsystem/mapping): Initialize(794619)
+[19:05:01]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[19:05:01]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[19:05:01]proc name: New (/obj/structure/glowshroom/New)
+[19:05:01]  source file: glowshroom.dm,63
+[19:05:01]  usr: null
+[19:05:01]  src: the glowshroom (/obj/structure/glowshroom/single)
+[19:05:01]  src.loc: the floor (172,60,9) (/turf/open/floor/plasteel)
+[19:05:01]  call stack:
+[19:05:01]the glowshroom (/obj/structure/glowshroom/single): New(the floor (172,60,9) (/turf/open/floor/plasteel), null, null)
+[19:05:01]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the floor (172,60,9) (/turf/open/floor/plasteel))
+[19:05:01]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the floor (172,60,9) (/turf/open/floor/plasteel), 1)
+[19:05:01]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/alien/weeds{\...", "cM", 172, 60, 9, 1)
+[19:05:01]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[19:05:01]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, null, null, null, null)
+[19:05:01]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (156,38,9) (/turf/open/space/basic), 1)
+[19:05:01]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[19:05:01]seedRuins(/list (/list), 13, /area/space (/area/space), /list (/list))
+[19:05:01]Mapping (/datum/controller/subsystem/mapping): Initialize(794619)
+[19:05:01]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[19:05:01]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[19:05:01]proc name: New (/obj/structure/glowshroom/New)
+[19:05:01]  source file: glowshroom.dm,63
+[19:05:01]  usr: null
+[19:05:01]  src: the glowshroom (/obj/structure/glowshroom/single)
+[19:05:01]  src.loc: the asteroid sand (180,57,9) (/turf/open/floor/plating/asteroid)
+[19:05:01]  call stack:
+[19:05:01]the glowshroom (/obj/structure/glowshroom/single): New(the asteroid sand (180,57,9) (/turf/open/floor/plating/asteroid), null, null)
+[19:05:01]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the asteroid sand (180,57,9) (/turf/open/floor/plating/asteroid))
+[19:05:01]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the asteroid sand (180,57,9) (/turf/open/floor/plating/asteroid), 1)
+[19:05:01]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/alien/weeds{\...", "dt", 180, 57, 9, 1)
+[19:05:01]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[19:05:01]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, null, null, null, null)
+[19:05:01]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (156,38,9) (/turf/open/space/basic), 1)
+[19:05:01]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[19:05:01]seedRuins(/list (/list), 13, /area/space (/area/space), /list (/list))
+[19:05:01]Mapping (/datum/controller/subsystem/mapping): Initialize(794619)
+[19:05:01]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[19:05:02]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[19:05:02]proc name: New (/obj/structure/glowshroom/New)
+[19:05:02]  source file: glowshroom.dm,63
+[19:05:02]  usr: null
+[19:05:02]  src: the glowshroom (/obj/structure/glowshroom/single)
+[19:05:02]  src.loc: the floor (183,54,9) (/turf/open/floor/plasteel)
+[19:05:02]  call stack:
+[19:05:02]the glowshroom (/obj/structure/glowshroom/single): New(the floor (183,54,9) (/turf/open/floor/plasteel), null, null)
+[19:05:02]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the floor (183,54,9) (/turf/open/floor/plasteel))
+[19:05:02]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the floor (183,54,9) (/turf/open/floor/plasteel), 1)
+[19:05:02]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/alien/weeds{\...", "dP", 183, 54, 9, 1)
+[19:05:02]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[19:05:02]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, null, null, null, null)
+[19:05:02]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (156,38,9) (/turf/open/space/basic), 1)
+[19:05:02]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[19:05:02]seedRuins(/list (/list), 13, /area/space (/area/space), /list (/list))
+[19:05:02]Mapping (/datum/controller/subsystem/mapping): Initialize(794619)
+[19:05:02]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[19:05:02]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[19:05:02]proc name: New (/obj/structure/glowshroom/New)
+[19:05:02]  source file: glowshroom.dm,63
+[19:05:02]  usr: null
+[19:05:02]  src: the glowshroom (/obj/structure/glowshroom/single)
+[19:05:02]  src.loc: the floor (184,59,9) (/turf/open/floor/plasteel)
+[19:05:02]  call stack:
+[19:05:02]the glowshroom (/obj/structure/glowshroom/single): New(the floor (184,59,9) (/turf/open/floor/plasteel), null, null)
+[19:05:02]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the floor (184,59,9) (/turf/open/floor/plasteel))
+[19:05:02]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the floor (184,59,9) (/turf/open/floor/plasteel), 1)
+[19:05:02]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/alien/weeds{\...", "ci", 184, 59, 9, 1)
+[19:05:02]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[19:05:02]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, null, null, null, null)
+[19:05:02]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (156,38,9) (/turf/open/space/basic), 1)
+[19:05:02]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[19:05:02]seedRuins(/list (/list), 13, /area/space (/area/space), /list (/list))
+[19:05:02]Mapping (/datum/controller/subsystem/mapping): Initialize(794619)
+[19:05:02]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[19:05:02]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[19:05:02]proc name: New (/obj/structure/glowshroom/New)
+[19:05:02]  source file: glowshroom.dm,63
+[19:05:02]  usr: null
+[19:05:02]  src: the glowshroom (/obj/structure/glowshroom/single)
+[19:05:02]  src.loc: the floor (185,62,9) (/turf/open/floor/plasteel)
+[19:05:02]  call stack:
+[19:05:02]the glowshroom (/obj/structure/glowshroom/single): New(the floor (185,62,9) (/turf/open/floor/plasteel), null, null)
+[19:05:02]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the floor (185,62,9) (/turf/open/floor/plasteel))
+[19:05:02]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the floor (185,62,9) (/turf/open/floor/plasteel), 1)
+[19:05:02]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/alien/weeds{\...", "ci", 185, 62, 9, 1)
+[19:05:02]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[19:05:02]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, null, null, null, null)
+[19:05:02]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (156,38,9) (/turf/open/space/basic), 1)
+[19:05:02]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[19:05:02]seedRuins(/list (/list), 13, /area/space (/area/space), /list (/list))
+[19:05:02]Mapping (/datum/controller/subsystem/mapping): Initialize(794619)
+[19:05:02]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[19:05:02]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[19:05:02]proc name: New (/obj/structure/glowshroom/New)
+[19:05:02]  source file: glowshroom.dm,63
+[19:05:02]  usr: null
+[19:05:02]  src: the glowshroom (/obj/structure/glowshroom/single)
+[19:05:02]  src.loc: the floor (186,55,9) (/turf/open/floor/plasteel)
+[19:05:02]  call stack:
+[19:05:02]the glowshroom (/obj/structure/glowshroom/single): New(the floor (186,55,9) (/turf/open/floor/plasteel), null, null)
+[19:05:02]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the floor (186,55,9) (/turf/open/floor/plasteel))
+[19:05:02]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the floor (186,55,9) (/turf/open/floor/plasteel), 1)
+[19:05:02]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/alien/weeds{\...", "ci", 186, 55, 9, 1)
+[19:05:02]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[19:05:02]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, null, null, null, null)
+[19:05:02]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (156,38,9) (/turf/open/space/basic), 1)
+[19:05:02]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[19:05:02]seedRuins(/list (/list), 13, /area/space (/area/space), /list (/list))
+[19:05:02]Mapping (/datum/controller/subsystem/mapping): Initialize(794619)
+[19:05:02]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[19:05:02]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[19:05:02]proc name: New (/obj/structure/glowshroom/New)
+[19:05:02]  source file: glowshroom.dm,63
+[19:05:02]  usr: null
+[19:05:02]  src: the glowshroom (/obj/structure/glowshroom/single)
+[19:05:02]  src.loc: the floor (188,59,9) (/turf/open/floor/plasteel)
+[19:05:02]  call stack:
+[19:05:02]the glowshroom (/obj/structure/glowshroom/single): New(the floor (188,59,9) (/turf/open/floor/plasteel), null, null)
+[19:05:02]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the floor (188,59,9) (/turf/open/floor/plasteel))
+[19:05:02]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the floor (188,59,9) (/turf/open/floor/plasteel), 1)
+[19:05:02]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/alien/weeds{\...", "ci", 188, 59, 9, 1)
+[19:05:02]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[19:05:02]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, null, null, null, null)
+[19:05:02]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (156,38,9) (/turf/open/space/basic), 1)
+[19:05:02]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[19:05:02]seedRuins(/list (/list), 13, /area/space (/area/space), /list (/list))
+[19:05:02]Mapping (/datum/controller/subsystem/mapping): Initialize(794619)
+[19:05:02]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[19:05:02]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[19:05:02]proc name: New (/obj/structure/glowshroom/New)
+[19:05:02]  source file: glowshroom.dm,63
+[19:05:02]  usr: null
+[19:05:02]  src: the glowshroom (/obj/structure/glowshroom/single)
+[19:05:02]  src.loc: the asteroid sand (189,51,9) (/turf/open/floor/plating/asteroid)
+[19:05:02]  call stack:
+[19:05:02]the glowshroom (/obj/structure/glowshroom/single): New(the asteroid sand (189,51,9) (/turf/open/floor/plating/asteroid), null, null)
+[19:05:02]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the asteroid sand (189,51,9) (/turf/open/floor/plating/asteroid))
+[19:05:02]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the asteroid sand (189,51,9) (/turf/open/floor/plating/asteroid), 1)
+[19:05:02]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/alien/weeds{\...", "dt", 189, 51, 9, 1)
+[19:05:02]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[19:05:02]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, null, null, null, null)
+[19:05:02]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (156,38,9) (/turf/open/space/basic), 1)
+[19:05:02]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[19:05:02]seedRuins(/list (/list), 13, /area/space (/area/space), /list (/list))
+[19:05:02]Mapping (/datum/controller/subsystem/mapping): Initialize(794619)
+[19:05:02]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[19:05:02]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[19:05:02]proc name: New (/obj/structure/glowshroom/New)
+[19:05:02]  source file: glowshroom.dm,63
+[19:05:02]  usr: null
+[19:05:02]  src: the glowshroom (/obj/structure/glowshroom/single)
+[19:05:02]  src.loc: the floor (190,65,9) (/turf/open/floor/plasteel)
+[19:05:02]  call stack:
+[19:05:02]the glowshroom (/obj/structure/glowshroom/single): New(the floor (190,65,9) (/turf/open/floor/plasteel), null, null)
+[19:05:02]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the floor (190,65,9) (/turf/open/floor/plasteel))
+[19:05:02]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the floor (190,65,9) (/turf/open/floor/plasteel), 1)
+[19:05:02]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/alien/weeds{\...", "bo", 190, 65, 9, 1)
+[19:05:02]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[19:05:02]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, null, null, null, null)
+[19:05:02]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (156,38,9) (/turf/open/space/basic), 1)
+[19:05:02]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[19:05:02]seedRuins(/list (/list), 13, /area/space (/area/space), /list (/list))
+[19:05:02]Mapping (/datum/controller/subsystem/mapping): Initialize(794619)
+[19:05:02]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[19:05:02]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[19:05:02]proc name: New (/obj/structure/glowshroom/New)
+[19:05:02]  source file: glowshroom.dm,63
+[19:05:02]  usr: null
+[19:05:02]  src: the glowshroom (/obj/structure/glowshroom/single)
+[19:05:02]  src.loc: the floor (191,58,9) (/turf/open/floor/plasteel)
+[19:05:02]  call stack:
+[19:05:02]the glowshroom (/obj/structure/glowshroom/single): New(the floor (191,58,9) (/turf/open/floor/plasteel), null, null)
+[19:05:02]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the floor (191,58,9) (/turf/open/floor/plasteel))
+[19:05:02]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the floor (191,58,9) (/turf/open/floor/plasteel), 1)
+[19:05:02]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/alien/weeds{\...", "ci", 191, 58, 9, 1)
+[19:05:02]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[19:05:02]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, null, null, null, null)
+[19:05:02]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (156,38,9) (/turf/open/space/basic), 1)
+[19:05:02]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[19:05:02]seedRuins(/list (/list), 13, /area/space (/area/space), /list (/list))
+[19:05:02]Mapping (/datum/controller/subsystem/mapping): Initialize(794619)
+[19:05:02]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[19:05:02]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[19:05:02]proc name: New (/obj/structure/glowshroom/New)
+[19:05:02]  source file: glowshroom.dm,63
+[19:05:02]  usr: null
+[19:05:02]  src: the glowshroom (/obj/structure/glowshroom/single)
+[19:05:02]  src.loc: the floor (192,62,9) (/turf/open/floor/plasteel)
+[19:05:02]  call stack:
+[19:05:02]the glowshroom (/obj/structure/glowshroom/single): New(the floor (192,62,9) (/turf/open/floor/plasteel), null, null)
+[19:05:02]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the floor (192,62,9) (/turf/open/floor/plasteel))
+[19:05:02]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the floor (192,62,9) (/turf/open/floor/plasteel), 1)
+[19:05:02]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/alien/weeds{\...", "cl", 192, 62, 9, 1)
+[19:05:02]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[19:05:02]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, null, null, null, null)
+[19:05:02]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (156,38,9) (/turf/open/space/basic), 1)
+[19:05:02]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[19:05:02]seedRuins(/list (/list), 13, /area/space (/area/space), /list (/list))
+[19:05:02]Mapping (/datum/controller/subsystem/mapping): Initialize(794619)
+[19:05:02]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[19:05:02]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[19:05:02]proc name: New (/obj/structure/glowshroom/New)
+[19:05:02]  source file: glowshroom.dm,63
+[19:05:02]  usr: null
+[19:05:02]  src: the glowshroom (/obj/structure/glowshroom/single)
+[19:05:02]  src.loc: the asteroid sand (193,55,9) (/turf/open/floor/plating/asteroid)
+[19:05:02]  call stack:
+[19:05:02]the glowshroom (/obj/structure/glowshroom/single): New(the asteroid sand (193,55,9) (/turf/open/floor/plating/asteroid), null, null)
+[19:05:02]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the asteroid sand (193,55,9) (/turf/open/floor/plating/asteroid))
+[19:05:02]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the asteroid sand (193,55,9) (/turf/open/floor/plating/asteroid), 1)
+[19:05:02]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/alien/weeds{\...", "dt", 193, 55, 9, 1)
+[19:05:02]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[19:05:02]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 156, 38, 9, 1, null, 1, null, null, null, null)
+[19:05:02]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (156,38,9) (/turf/open/space/basic), 1)
+[19:05:02]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[19:05:02]seedRuins(/list (/list), 13, /area/space (/area/space), /list (/list))
+[19:05:02]Mapping (/datum/controller/subsystem/mapping): Initialize(794619)
+[19:05:02]Master (/datum/controller/master): Initialize(10, 0)
+Ruin "Authorship" placed at (185, 174, 3)
+Ruin "Asteroid 4" placed at (220, 34, 3)
+Ruin "Derelict 5" placed at (67, 69, 8)
+Ruin "Derelict 4" placed at (119, 66, 11)
+Ruin "Ordinary Space Tile" placed at (195, 189, 11)
+Ruin "Dinner for Two" placed at (72, 53, 9)
+Ruin "Asteroid 5" placed at (89, 182, 8)
+Ruin "Derelict 1" placed at (68, 153, 7)
+Ruin "CF Corsair" placed at (205, 139, 9)
+Ruin "NT Medical Ship" placed at (152, 120, 9)
+Ruin "Crashed Ship" placed at (79, 84, 4)
+Ruin "Asteroid 2" placed at (180, 178, 4)
+Initialized Mapping subsystem within 42.7 seconds!
+runtime error: 
+[19:05:05]Cannot execute null.add reagent().
+[19:05:05]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:05]  source file: humans.dm,57
+[19:05:05]  usr: null
+[19:05:05]  src: the gibs (/obj/effect/decal/cleanable/blood/gibs/body)
+[19:05:05]  src.loc: null
+[19:05:05]  call stack:
+[19:05:05]the gibs (/obj/effect/decal/cleanable/blood/gibs/body): Initialize(1, null)
+[19:05:05]Atoms (/datum/controller/subsystem/atoms): InitAtom(the gibs (/obj/effect/decal/cleanable/blood/gibs/body), /list (/list))
+[19:05:05]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[19:05:05]Atoms (/datum/controller/subsystem/atoms): Initialize(795046)
+[19:05:05]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[19:05:05]Cannot execute null.add reagent().
+[19:05:05]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:05]  source file: humans.dm,57
+runtime error: 
+[19:05:05]Cannot execute null.add reagent().
+[19:05:05]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:05]  source file: humans.dm,57
+runtime error: 
+[19:05:05]Cannot execute null.add reagent().
+[19:05:05]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:05]  source file: humans.dm,57
+runtime error: 
+[19:05:06]Cannot execute null.add reagent().
+[19:05:06]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:06]  source file: robots.dm,52
+runtime error: 
+[19:05:06]Cannot execute null.add reagent().
+[19:05:06]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:06]  source file: robots.dm,52
+runtime error: 
+[19:05:09]Cannot execute null.add reagent().
+[19:05:09]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:09]  source file: robots.dm,52
+runtime error: 
+[19:05:09]Cannot execute null.add reagent().
+[19:05:09]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:09]  source file: robots.dm,52
+runtime error: 
+[19:05:09]Cannot execute null.add reagent().
+[19:05:09]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:09]  source file: robots.dm,52
+runtime error: 
+[19:05:09]Cannot execute null.add reagent().
+[19:05:09]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:09]  source file: humans.dm,57
+runtime error: 
+[19:05:10]Cannot execute null.add reagent().
+[19:05:10]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:10]  source file: humans.dm,57
+runtime error: 
+[19:05:10]Cannot execute null.add reagent().
+[19:05:10]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:10]  source file: robots.dm,52
+runtime error: 
+[19:05:10]Cannot execute null.add reagent().
+[19:05:10]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:10]  source file: humans.dm,57
+runtime error: 
+[19:05:10]Cannot execute null.add reagent().
+[19:05:10]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:10]  source file: robots.dm,52
+runtime error: 
+[19:05:10]Cannot execute null.add reagent().
+[19:05:10]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:10]  source file: humans.dm,57
+runtime error: 
+[19:05:10]Cannot execute null.add reagent().
+[19:05:10]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:10]  source file: humans.dm,57
+runtime error: 
+[19:05:11]Cannot execute null.add reagent().
+[19:05:11]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:11]  source file: robots.dm,52
+runtime error: 
+[19:05:11]Cannot execute null.add reagent().
+[19:05:11]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:11]  source file: robots.dm,52
+runtime error: 
+[19:05:11]Cannot execute null.add reagent().
+[19:05:11]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:11]  source file: robots.dm,52
+runtime error: 
+[19:05:12]Cannot execute null.add reagent().
+[19:05:12]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:12]  source file: robots.dm,52
+runtime error: 
+[19:05:12]Cannot execute null.add reagent().
+[19:05:12]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:12]  source file: robots.dm,52
+runtime error: 
+[19:05:12]Cannot execute null.add reagent().
+[19:05:12]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:12]  source file: robots.dm,52
+runtime error: 
+[19:05:12]Cannot execute null.add reagent().
+[19:05:12]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:12]  source file: robots.dm,52
+runtime error: 
+[19:05:12]Cannot execute null.add reagent().
+[19:05:12]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:12]  source file: robots.dm,52
+runtime error: 
+[19:05:12]Cannot execute null.add reagent().
+[19:05:12]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:12]  source file: robots.dm,52
+runtime error: 
+[19:05:12]Cannot execute null.add reagent().
+[19:05:12]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:12]  source file: robots.dm,52
+runtime error: 
+[19:05:13]Cannot execute null.add reagent().
+[19:05:13]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:13]  source file: robots.dm,52
+runtime error: 
+[19:05:13]Cannot execute null.add reagent().
+[19:05:13]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:13]  source file: robots.dm,52
+runtime error: 
+[19:05:13]Cannot execute null.add reagent().
+[19:05:13]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:13]  source file: robots.dm,52
+runtime error: 
+[19:05:14]Cannot execute null.add reagent().
+[19:05:14]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:14]  source file: robots.dm,52
+runtime error: 
+[19:05:16]Cannot execute null.add reagent().
+[19:05:16]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:16]  source file: robots.dm,52
+runtime error: 
+[19:05:16]Cannot execute null.add reagent().
+[19:05:16]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:16]  source file: robots.dm,52
+runtime error: 
+[19:05:17]Cannot execute null.add reagent().
+[19:05:17]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:17]  source file: robots.dm,52
+runtime error: 
+[19:05:17]Cannot execute null.add reagent().
+[19:05:17]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:17]  source file: robots.dm,52
+runtime error: 
+[19:05:17]Cannot execute null.add reagent().
+[19:05:17]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:17]  source file: robots.dm,52
+runtime error: 
+[19:05:17]Cannot execute null.add reagent().
+[19:05:17]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:17]  source file: robots.dm,52
+runtime error: 
+[19:05:18]Cannot execute null.add reagent().
+[19:05:18]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:18]  source file: robots.dm,52
+runtime error: 
+[19:05:20]Cannot execute null.add reagent().
+[19:05:20]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:20]  source file: robots.dm,52
+runtime error: 
+[19:05:20]Cannot execute null.add reagent().
+[19:05:20]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:20]  source file: robots.dm,52
+runtime error: 
+[19:05:21]Cannot execute null.add reagent().
+[19:05:21]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:21]  source file: robots.dm,52
+runtime error: 
+[19:05:21]Cannot execute null.add reagent().
+[19:05:21]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:21]  source file: robots.dm,52
+runtime error: 
+[19:05:21]Cannot execute null.add reagent().
+[19:05:21]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:21]  source file: robots.dm,52
+runtime error: 
+[19:05:22]Cannot execute null.add reagent().
+[19:05:22]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:22]  source file: robots.dm,52
+runtime error: 
+[19:05:22]Cannot execute null.add reagent().
+[19:05:22]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:22]  source file: robots.dm,52
+runtime error: 
+[19:05:23]Cannot execute null.add reagent().
+[19:05:23]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:23]  source file: robots.dm,52
+runtime error: 
+[19:05:23]Cannot execute null.add reagent().
+[19:05:23]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:23]  source file: robots.dm,52
+runtime error: 
+[19:05:23]Cannot execute null.add reagent().
+[19:05:23]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:23]  source file: humans.dm,57
+runtime error: 
+[19:05:23]Cannot execute null.add reagent().
+[19:05:23]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:23]  source file: humans.dm,57
+runtime error: 
+[19:05:24]Cannot execute null.add reagent().
+[19:05:24]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:24]  source file: humans.dm,57
+runtime error: 
+[19:05:24]Cannot execute null.add reagent().
+[19:05:24]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:24]  source file: humans.dm,57
+runtime error: 
+[19:05:24]Cannot execute null.add reagent().
+[19:05:24]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:24]  source file: humans.dm,57
+runtime error: 
+[19:05:24]Cannot execute null.add reagent().
+[19:05:24]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:24]  source file: humans.dm,57
+runtime error: 
+[19:05:24]Cannot execute null.add reagent().
+[19:05:24]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:24]  source file: humans.dm,57
+runtime error: 
+[19:05:24]Cannot execute null.add reagent().
+[19:05:24]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:24]  source file: robots.dm,52
+runtime error: 
+[19:05:24]Cannot execute null.add reagent().
+[19:05:24]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[19:05:24]  source file: robots.dm,52
+runtime error: 
+[19:05:24]Cannot execute null.add reagent().
+[19:05:24]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:24]  source file: humans.dm,57
+runtime error: 
+[19:05:24]Cannot execute null.add reagent().
+[19:05:24]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:24]  source file: humans.dm,57
+runtime error: 
+[19:05:24]Cannot execute null.add reagent().
+[19:05:24]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:24]  source file: humans.dm,57
+runtime error: 
+[19:05:25]Cannot execute null.add reagent().
+[19:05:25]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:25]  source file: humans.dm,57
+runtime error: 
+[19:05:25]Cannot execute null.add reagent().
+[19:05:25]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:25]  source file: humans.dm,57
+runtime error: 
+[19:05:25]Cannot execute null.add reagent().
+[19:05:25]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:25]  source file: humans.dm,57
+runtime error: 
+[19:05:25]Cannot execute null.add reagent().
+[19:05:25]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:25]  source file: humans.dm,57
+runtime error: 
+[19:05:25]Cannot execute null.add reagent().
+[19:05:25]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:25]  source file: humans.dm,57
+runtime error: 
+[19:05:25]Cannot execute null.add reagent().
+[19:05:25]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:25]  source file: humans.dm,57
+runtime error: 
+[19:05:25]Cannot execute null.add reagent().
+[19:05:25]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:25]  source file: humans.dm,57
+runtime error: 
+[19:05:25]Cannot execute null.add reagent().
+[19:05:25]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:25]  source file: humans.dm,57
+runtime error: 
+[19:05:25]Cannot execute null.add reagent().
+[19:05:25]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:25]  source file: humans.dm,57
+runtime error: 
+[19:05:25]Cannot execute null.add reagent().
+[19:05:25]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:25]  source file: humans.dm,57
+runtime error: 
+[19:05:25]Cannot execute null.add reagent().
+[19:05:25]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:25]  source file: humans.dm,57
+runtime error: 
+[19:05:25]Cannot execute null.add reagent().
+[19:05:25]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:25]  source file: humans.dm,57
+runtime error: 
+[19:05:26]Cannot execute null.add reagent().
+[19:05:26]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:26]  source file: humans.dm,57
+runtime error: 
+[19:05:26]Cannot execute null.add reagent().
+[19:05:26]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:26]  source file: humans.dm,57
+runtime error: 
+[19:05:26]Cannot execute null.add reagent().
+[19:05:26]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:26]  source file: humans.dm,57
+runtime error: 
+[19:05:26]Cannot execute null.add reagent().
+[19:05:26]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:26]  source file: humans.dm,57
+runtime error: 
+[19:05:26]Cannot execute null.add reagent().
+[19:05:26]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:26]  source file: humans.dm,57
+runtime error: 
+[19:05:26]Cannot execute null.add reagent().
+[19:05:26]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:26]  source file: humans.dm,57
+runtime error: 
+[19:05:26]Cannot execute null.add reagent().
+[19:05:26]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:26]  source file: humans.dm,57
+runtime error: 
+[19:05:26]Cannot execute null.add reagent().
+[19:05:26]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:26]  source file: humans.dm,57
+runtime error: 
+[19:05:26]Cannot execute null.add reagent().
+[19:05:26]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[19:05:26]  source file: humans.dm,57
+runtime error: 
+[19:05:26]Cannot execute null.add reagent().
+[19:05:26]Warning: further proc crash messages are being suppressed to prevent overload...
+runtime error: 
+[19:05:26]Cannot execute null.add reagent().
+runtime error: 
+[19:05:26]Cannot execute null.add reagent().
+runtime error: 
+[19:05:26]Cannot execute null.add reagent().
+runtime error: 
+[19:05:26]Cannot execute null.add reagent().
+runtime error: 
+[19:05:27]Cannot execute null.add reagent().
+runtime error: 
+[19:05:27]Cannot execute null.add reagent().
+runtime error: 
+[19:05:31]Cannot execute null.add reagent().
+runtime error: 
+[19:05:31]Cannot execute null.add reagent().
+runtime error: 
+[19:05:31]Cannot execute null.add reagent().
+runtime error: 
+[19:05:31]Cannot execute null.add reagent().
+runtime error: 
+[19:05:31]Cannot execute null.add reagent().
+runtime error: 
+[19:05:31]Cannot execute null.add reagent().
+runtime error: 
+[19:05:31]Cannot execute null.add reagent().
+runtime error: 
+[19:05:31]Cannot execute null.add reagent().
+runtime error: 
+[19:05:32]Cannot execute null.add reagent().
+runtime error: 
+[19:05:32]Cannot execute null.add reagent().
+runtime error: 
+[19:05:32]Cannot execute null.add reagent().
+runtime error: 
+[19:05:33]Cannot execute null.add reagent().
+Initialized 897816 atoms
+Initialized Atoms subsystem within 54.6 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 1.1 seconds!
+Initialized Circuit subsystem within 0 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 34 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 1 second were wasted processing 34 turf(s) (connected to 19801 other turfs) with atmos differences at round start.
+Initialized Atmospherics subsystem within 19 seconds!
+Initialized Minimap subsystem within 0 seconds!
+Initialized Assets subsystem within 0.4 seconds!
+Initialized Icon Smoothing subsystem within 6.4 seconds!
+Initialized Overlay subsystem within 19.1 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Lighting subsystem within 18 seconds!
+Initialized Shuttle subsystem within 27.3 seconds!
+Initialized Squeak subsystem within 0 seconds!
+Loaded 0 engraved messages on map Delta Station
+Initialized Persistence subsystem within 0.1 seconds!
+Initializations complete within 190.2 seconds!

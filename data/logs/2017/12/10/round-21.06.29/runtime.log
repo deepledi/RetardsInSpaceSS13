@@ -1,0 +1,1965 @@
+
+
+Starting up round ID . 21:06:29
+---------------------
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+runtime error: 
+[21:06:30]cannot read from list
+[21:06:30]proc name: LoadJobs (/datum/controller/subsystem/job/proc/LoadJobs)
+[21:06:30]  source file: job.dm,448
+[21:06:30]  usr: null
+[21:06:30]  src: Jobs (/datum/controller/subsystem/job)
+[21:06:30]  call stack:
+[21:06:30]Jobs (/datum/controller/subsystem/job): LoadJobs()
+[21:06:30]Jobs (/datum/controller/subsystem/job): Initialize(3908)
+[21:06:30]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Jobs subsystem within 0.1 seconds!
+Initialized Ticker subsystem within 0.1 seconds!
+Loading Delta Station...
+Loaded station in 36.3s!
+Ruin "Hierophant's Arena" placed at (219, 115, 5)
+Ruin "Blood-Drunk Miner (Hunter)" placed at (170, 176, 5)
+Ruin "Biodome Beach" placed at (46, 164, 5)
+Ruin "Ruin of Sloth" placed at (133, 84, 5)
+Ruin "Survival Capsule Ruins" placed at (194, 183, 5)
+Ruin "Ash Walker Nest" placed at (132, 184, 5)
+Ruin "UFO Crash" placed at (118, 94, 5)
+Ruin "Fountain Hall" placed at (48, 203, 5)
+Ruin "Survival Capsule Ruins" placed at (87, 125, 5)
+Ruin "Makeshift Shelter" placed at (194, 164, 5)
+runtime error: 
+[21:07:12]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[21:07:12]proc name: New (/obj/structure/glowshroom/New)
+[21:07:12]  source file: glowshroom.dm,63
+[21:07:12]  usr: null
+[21:07:12]  src: the glowshroom (/obj/structure/glowshroom/single)
+[21:07:12]  src.loc: the plating (193,164,5) (/turf/open/floor/plating)
+[21:07:12]  call stack:
+[21:07:12]the glowshroom (/obj/structure/glowshroom/single): New(the plating (193,164,5) (/turf/open/floor/plating), null, null)
+[21:07:12]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the plating (193,164,5) (/turf/open/floor/plating))
+[21:07:12]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the plating (193,164,5) (/turf/open/floor/plating), 1)
+[21:07:12]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/glowshroom/si...", "q", 193, 164, 5, 1)
+[21:07:12]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/LavaRuins/la..., 186, 156, 5, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[21:07:12]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/LavaRuins/la..., 186, 156, 5, 1, null, 1, null, null, null, null)
+[21:07:12]Makeshift Shelter (/datum/map_template/ruin/lavaland/hermit): load(the volcanic floor (186,156,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface), 1)
+[21:07:12]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Makeshift Shelter (/datum/map_template/ruin/lavaland/hermit))
+[21:07:12]seedRuins(/list (/list), 15, /area/lavaland/surface/outdoor... (/area/lavaland/surface/outdoors/unexplored), /list (/list))
+[21:07:12]Mapping (/datum/controller/subsystem/mapping): Initialize(3910)
+[21:07:12]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[21:07:12]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[21:07:12]proc name: New (/obj/structure/glowshroom/New)
+[21:07:12]  source file: glowshroom.dm,63
+[21:07:12]  usr: null
+[21:07:12]  src: the glowshroom (/obj/structure/glowshroom/single)
+[21:07:12]  src.loc: the dirt (197,168,5) (/turf/open/floor/plating/asteroid)
+[21:07:12]  call stack:
+[21:07:12]the glowshroom (/obj/structure/glowshroom/single): New(the dirt (197,168,5) (/turf/open/floor/plating/asteroid), null, null)
+[21:07:12]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the dirt (197,168,5) (/turf/open/floor/plating/asteroid))
+[21:07:12]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the dirt (197,168,5) (/turf/open/floor/plating/asteroid), 1)
+[21:07:12]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/glowshroom/si...", "k", 197, 168, 5, 1)
+[21:07:12]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/LavaRuins/la..., 186, 156, 5, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[21:07:12]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/LavaRuins/la..., 186, 156, 5, 1, null, 1, null, null, null, null)
+[21:07:12]Makeshift Shelter (/datum/map_template/ruin/lavaland/hermit): load(the volcanic floor (186,156,5) (/turf/open/floor/plating/asteroid/basalt/lava_land_surface), 1)
+[21:07:12]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Makeshift Shelter (/datum/map_template/ruin/lavaland/hermit))
+[21:07:12]seedRuins(/list (/list), 15, /area/lavaland/surface/outdoor... (/area/lavaland/surface/outdoors/unexplored), /list (/list))
+[21:07:12]Mapping (/datum/controller/subsystem/mapping): Initialize(3910)
+[21:07:12]Master (/datum/controller/master): Initialize(10, 0)
+Ruin "Fountain Hall" placed at (197, 67, 5)
+Ruin "Asteroid 1" placed at (121, 184, 10)
+Ruin "Dinner for Two" placed at (112, 171, 8)
+Ruin "Ancient Space Station" placed at (68, 162, 11)
+Ruin "Asteroid 4" placed at (78, 32, 9)
+Ruin "Derelict 1" placed at (154, 126, 11)
+Ruin "Syndicate Ambush" placed at (146, 62, 7)
+Ruin "Salvation" placed at (90, 51, 7)
+Ruin "Asteroid 3" placed at (44, 103, 4)
+Ruin "Waylaid Buses" placed at (154, 140, 10)
+Ruin "Derelict 3" placed at (48, 104, 8)
+Ruin "Derelict 6" placed at (124, 170, 7)
+Ruin "Gondoland" placed at (126, 197, 7)
+Ruin "NT Medical Ship" placed at (46, 54, 9)
+Ruin "Empty Shell" placed at (48, 144, 10)
+Ruin "Derelict Tradepost" placed at (70, 195, 4)
+runtime error: 
+[21:07:15]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[21:07:15]proc name: New (/obj/structure/glowshroom/New)
+[21:07:15]  source file: glowshroom.dm,63
+[21:07:15]  usr: null
+[21:07:15]  src: the glowshroom (/obj/structure/glowshroom/single)
+[21:07:15]  src.loc: the floor (56,195,4) (/turf/open/floor/plasteel)
+[21:07:15]  call stack:
+[21:07:15]the glowshroom (/obj/structure/glowshroom/single): New(the floor (56,195,4) (/turf/open/floor/plasteel), null, null)
+[21:07:15]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the floor (56,195,4) (/turf/open/floor/plasteel))
+[21:07:15]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the floor (56,195,4) (/turf/open/floor/plasteel), 1)
+[21:07:15]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/alien/weeds{\...", "da", 56, 195, 4, 1)
+[21:07:15]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 50, 175, 4, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[21:07:15]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 50, 175, 4, 1, null, 1, null, null, null, null)
+[21:07:15]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (50,175,4) (/turf/open/space/basic), 1)
+[21:07:15]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[21:07:15]seedRuins(/list (/list), 2, /area/space (/area/space), /list (/list))
+[21:07:15]Mapping (/datum/controller/subsystem/mapping): Initialize(3910)
+[21:07:15]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[21:07:15]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[21:07:15]proc name: New (/obj/structure/glowshroom/New)
+[21:07:15]  source file: glowshroom.dm,63
+[21:07:15]  usr: null
+[21:07:15]  src: the glowshroom (/obj/structure/glowshroom/single)
+[21:07:15]  src.loc: the asteroid sand (60,193,4) (/turf/open/floor/plating/asteroid)
+[21:07:15]  call stack:
+[21:07:15]the glowshroom (/obj/structure/glowshroom/single): New(the asteroid sand (60,193,4) (/turf/open/floor/plating/asteroid), null, null)
+[21:07:15]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the asteroid sand (60,193,4) (/turf/open/floor/plating/asteroid))
+[21:07:15]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the asteroid sand (60,193,4) (/turf/open/floor/plating/asteroid), 1)
+[21:07:15]/dmm_suite (/dmm_suite): parse grid("\n/obj/effect/decal/cleanable/...", "dy", 60, 193, 4, 1)
+[21:07:15]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 50, 175, 4, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[21:07:15]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 50, 175, 4, 1, null, 1, null, null, null, null)
+[21:07:15]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (50,175,4) (/turf/open/space/basic), 1)
+[21:07:15]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[21:07:15]seedRuins(/list (/list), 2, /area/space (/area/space), /list (/list))
+[21:07:15]Mapping (/datum/controller/subsystem/mapping): Initialize(3910)
+[21:07:15]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[21:07:15]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[21:07:15]proc name: New (/obj/structure/glowshroom/New)
+[21:07:15]  source file: glowshroom.dm,63
+[21:07:15]  usr: null
+[21:07:15]  src: the glowshroom (/obj/structure/glowshroom/single)
+[21:07:15]  src.loc: the shuttle floor (64,202,4) (/turf/open/floor/mineral/titanium/blue)
+[21:07:15]  call stack:
+[21:07:15]the glowshroom (/obj/structure/glowshroom/single): New(the shuttle floor (64,202,4) (/turf/open/floor/mineral/titanium/blue), null, null)
+[21:07:15]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the shuttle floor (64,202,4) (/turf/open/floor/mineral/titanium/blue))
+[21:07:15]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the shuttle floor (64,202,4) (/turf/open/floor/mineral/titanium/blue), 1)
+[21:07:15]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/alien/weeds{\...", "bg", 64, 202, 4, 1)
+[21:07:15]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 50, 175, 4, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[21:07:15]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 50, 175, 4, 1, null, 1, null, null, null, null)
+[21:07:15]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (50,175,4) (/turf/open/space/basic), 1)
+[21:07:15]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[21:07:15]seedRuins(/list (/list), 2, /area/space (/area/space), /list (/list))
+[21:07:15]Mapping (/datum/controller/subsystem/mapping): Initialize(3910)
+[21:07:15]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[21:07:15]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[21:07:15]proc name: New (/obj/structure/glowshroom/New)
+[21:07:15]  source file: glowshroom.dm,63
+[21:07:15]  usr: null
+[21:07:15]  src: the glowshroom (/obj/structure/glowshroom/single)
+[21:07:15]  src.loc: the floor (66,197,4) (/turf/open/floor/plasteel)
+[21:07:15]  call stack:
+[21:07:15]the glowshroom (/obj/structure/glowshroom/single): New(the floor (66,197,4) (/turf/open/floor/plasteel), null, null)
+[21:07:15]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the floor (66,197,4) (/turf/open/floor/plasteel))
+[21:07:15]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the floor (66,197,4) (/turf/open/floor/plasteel), 1)
+[21:07:15]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/alien/weeds{\...", "cM", 66, 197, 4, 1)
+[21:07:15]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 50, 175, 4, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[21:07:15]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 50, 175, 4, 1, null, 1, null, null, null, null)
+[21:07:15]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (50,175,4) (/turf/open/space/basic), 1)
+[21:07:15]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[21:07:15]seedRuins(/list (/list), 2, /area/space (/area/space), /list (/list))
+[21:07:15]Mapping (/datum/controller/subsystem/mapping): Initialize(3910)
+[21:07:15]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[21:07:15]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[21:07:15]proc name: New (/obj/structure/glowshroom/New)
+[21:07:15]  source file: glowshroom.dm,63
+[21:07:15]  usr: null
+[21:07:15]  src: the glowshroom (/obj/structure/glowshroom/single)
+[21:07:15]  src.loc: the asteroid sand (74,194,4) (/turf/open/floor/plating/asteroid)
+[21:07:15]  call stack:
+[21:07:15]the glowshroom (/obj/structure/glowshroom/single): New(the asteroid sand (74,194,4) (/turf/open/floor/plating/asteroid), null, null)
+[21:07:15]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the asteroid sand (74,194,4) (/turf/open/floor/plating/asteroid))
+[21:07:15]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the asteroid sand (74,194,4) (/turf/open/floor/plating/asteroid), 1)
+[21:07:15]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/alien/weeds{\...", "dt", 74, 194, 4, 1)
+[21:07:15]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 50, 175, 4, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[21:07:15]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 50, 175, 4, 1, null, 1, null, null, null, null)
+[21:07:15]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (50,175,4) (/turf/open/space/basic), 1)
+[21:07:15]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[21:07:15]seedRuins(/list (/list), 2, /area/space (/area/space), /list (/list))
+[21:07:15]Mapping (/datum/controller/subsystem/mapping): Initialize(3910)
+[21:07:15]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[21:07:15]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[21:07:15]proc name: New (/obj/structure/glowshroom/New)
+[21:07:15]  source file: glowshroom.dm,63
+[21:07:15]  usr: null
+[21:07:15]  src: the glowshroom (/obj/structure/glowshroom/single)
+[21:07:15]  src.loc: the floor (77,191,4) (/turf/open/floor/plasteel)
+[21:07:15]  call stack:
+[21:07:15]the glowshroom (/obj/structure/glowshroom/single): New(the floor (77,191,4) (/turf/open/floor/plasteel), null, null)
+[21:07:15]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the floor (77,191,4) (/turf/open/floor/plasteel))
+[21:07:15]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the floor (77,191,4) (/turf/open/floor/plasteel), 1)
+[21:07:15]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/alien/weeds{\...", "dP", 77, 191, 4, 1)
+[21:07:15]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 50, 175, 4, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[21:07:15]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 50, 175, 4, 1, null, 1, null, null, null, null)
+[21:07:15]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (50,175,4) (/turf/open/space/basic), 1)
+[21:07:15]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[21:07:15]seedRuins(/list (/list), 2, /area/space (/area/space), /list (/list))
+[21:07:15]Mapping (/datum/controller/subsystem/mapping): Initialize(3910)
+[21:07:15]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[21:07:15]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[21:07:15]proc name: New (/obj/structure/glowshroom/New)
+[21:07:15]  source file: glowshroom.dm,63
+[21:07:15]  usr: null
+[21:07:15]  src: the glowshroom (/obj/structure/glowshroom/single)
+[21:07:15]  src.loc: the floor (78,196,4) (/turf/open/floor/plasteel)
+[21:07:15]  call stack:
+[21:07:15]the glowshroom (/obj/structure/glowshroom/single): New(the floor (78,196,4) (/turf/open/floor/plasteel), null, null)
+[21:07:15]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the floor (78,196,4) (/turf/open/floor/plasteel))
+[21:07:15]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the floor (78,196,4) (/turf/open/floor/plasteel), 1)
+[21:07:15]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/alien/weeds{\...", "ci", 78, 196, 4, 1)
+[21:07:15]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 50, 175, 4, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[21:07:15]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 50, 175, 4, 1, null, 1, null, null, null, null)
+[21:07:15]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (50,175,4) (/turf/open/space/basic), 1)
+[21:07:15]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[21:07:15]seedRuins(/list (/list), 2, /area/space (/area/space), /list (/list))
+[21:07:15]Mapping (/datum/controller/subsystem/mapping): Initialize(3910)
+[21:07:15]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[21:07:15]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[21:07:15]proc name: New (/obj/structure/glowshroom/New)
+[21:07:15]  source file: glowshroom.dm,63
+[21:07:15]  usr: null
+[21:07:15]  src: the glowshroom (/obj/structure/glowshroom/single)
+[21:07:15]  src.loc: the floor (79,199,4) (/turf/open/floor/plasteel)
+[21:07:15]  call stack:
+[21:07:15]the glowshroom (/obj/structure/glowshroom/single): New(the floor (79,199,4) (/turf/open/floor/plasteel), null, null)
+[21:07:15]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the floor (79,199,4) (/turf/open/floor/plasteel))
+[21:07:15]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the floor (79,199,4) (/turf/open/floor/plasteel), 1)
+[21:07:15]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/alien/weeds{\...", "ci", 79, 199, 4, 1)
+[21:07:15]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 50, 175, 4, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[21:07:15]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 50, 175, 4, 1, null, 1, null, null, null, null)
+[21:07:15]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (50,175,4) (/turf/open/space/basic), 1)
+[21:07:15]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[21:07:15]seedRuins(/list (/list), 2, /area/space (/area/space), /list (/list))
+[21:07:15]Mapping (/datum/controller/subsystem/mapping): Initialize(3910)
+[21:07:15]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[21:07:15]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[21:07:15]proc name: New (/obj/structure/glowshroom/New)
+[21:07:15]  source file: glowshroom.dm,63
+[21:07:15]  usr: null
+[21:07:15]  src: the glowshroom (/obj/structure/glowshroom/single)
+[21:07:15]  src.loc: the floor (80,192,4) (/turf/open/floor/plasteel)
+[21:07:15]  call stack:
+[21:07:15]the glowshroom (/obj/structure/glowshroom/single): New(the floor (80,192,4) (/turf/open/floor/plasteel), null, null)
+[21:07:15]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the floor (80,192,4) (/turf/open/floor/plasteel))
+[21:07:15]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the floor (80,192,4) (/turf/open/floor/plasteel), 1)
+[21:07:15]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/alien/weeds{\...", "ci", 80, 192, 4, 1)
+[21:07:15]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 50, 175, 4, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[21:07:15]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 50, 175, 4, 1, null, 1, null, null, null, null)
+[21:07:15]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (50,175,4) (/turf/open/space/basic), 1)
+[21:07:15]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[21:07:15]seedRuins(/list (/list), 2, /area/space (/area/space), /list (/list))
+[21:07:15]Mapping (/datum/controller/subsystem/mapping): Initialize(3910)
+[21:07:15]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[21:07:15]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[21:07:15]proc name: New (/obj/structure/glowshroom/New)
+[21:07:15]  source file: glowshroom.dm,63
+[21:07:15]  usr: null
+[21:07:15]  src: the glowshroom (/obj/structure/glowshroom/single)
+[21:07:15]  src.loc: the floor (82,196,4) (/turf/open/floor/plasteel)
+[21:07:15]  call stack:
+[21:07:15]the glowshroom (/obj/structure/glowshroom/single): New(the floor (82,196,4) (/turf/open/floor/plasteel), null, null)
+[21:07:15]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the floor (82,196,4) (/turf/open/floor/plasteel))
+[21:07:15]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the floor (82,196,4) (/turf/open/floor/plasteel), 1)
+[21:07:15]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/alien/weeds{\...", "ci", 82, 196, 4, 1)
+[21:07:15]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 50, 175, 4, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[21:07:15]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 50, 175, 4, 1, null, 1, null, null, null, null)
+[21:07:15]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (50,175,4) (/turf/open/space/basic), 1)
+[21:07:15]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[21:07:15]seedRuins(/list (/list), 2, /area/space (/area/space), /list (/list))
+[21:07:15]Mapping (/datum/controller/subsystem/mapping): Initialize(3910)
+[21:07:15]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[21:07:15]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[21:07:15]proc name: New (/obj/structure/glowshroom/New)
+[21:07:15]  source file: glowshroom.dm,63
+[21:07:15]  usr: null
+[21:07:15]  src: the glowshroom (/obj/structure/glowshroom/single)
+[21:07:15]  src.loc: the asteroid sand (83,188,4) (/turf/open/floor/plating/asteroid)
+[21:07:15]  call stack:
+[21:07:15]the glowshroom (/obj/structure/glowshroom/single): New(the asteroid sand (83,188,4) (/turf/open/floor/plating/asteroid), null, null)
+[21:07:15]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the asteroid sand (83,188,4) (/turf/open/floor/plating/asteroid))
+[21:07:15]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the asteroid sand (83,188,4) (/turf/open/floor/plating/asteroid), 1)
+[21:07:15]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/alien/weeds{\...", "dt", 83, 188, 4, 1)
+[21:07:15]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 50, 175, 4, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[21:07:15]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 50, 175, 4, 1, null, 1, null, null, null, null)
+[21:07:15]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (50,175,4) (/turf/open/space/basic), 1)
+[21:07:15]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[21:07:15]seedRuins(/list (/list), 2, /area/space (/area/space), /list (/list))
+[21:07:15]Mapping (/datum/controller/subsystem/mapping): Initialize(3910)
+[21:07:15]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[21:07:15]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[21:07:15]proc name: New (/obj/structure/glowshroom/New)
+[21:07:15]  source file: glowshroom.dm,63
+[21:07:15]  usr: null
+[21:07:15]  src: the glowshroom (/obj/structure/glowshroom/single)
+[21:07:15]  src.loc: the floor (84,202,4) (/turf/open/floor/plasteel)
+[21:07:15]  call stack:
+[21:07:15]the glowshroom (/obj/structure/glowshroom/single): New(the floor (84,202,4) (/turf/open/floor/plasteel), null, null)
+[21:07:15]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the floor (84,202,4) (/turf/open/floor/plasteel))
+[21:07:15]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the floor (84,202,4) (/turf/open/floor/plasteel), 1)
+[21:07:15]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/alien/weeds{\...", "bo", 84, 202, 4, 1)
+[21:07:15]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 50, 175, 4, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[21:07:15]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 50, 175, 4, 1, null, 1, null, null, null, null)
+[21:07:15]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (50,175,4) (/turf/open/space/basic), 1)
+[21:07:15]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[21:07:15]seedRuins(/list (/list), 2, /area/space (/area/space), /list (/list))
+[21:07:15]Mapping (/datum/controller/subsystem/mapping): Initialize(3910)
+[21:07:15]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[21:07:15]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[21:07:15]proc name: New (/obj/structure/glowshroom/New)
+[21:07:15]  source file: glowshroom.dm,63
+[21:07:15]  usr: null
+[21:07:15]  src: the glowshroom (/obj/structure/glowshroom/single)
+[21:07:15]  src.loc: the floor (85,195,4) (/turf/open/floor/plasteel)
+[21:07:15]  call stack:
+[21:07:15]the glowshroom (/obj/structure/glowshroom/single): New(the floor (85,195,4) (/turf/open/floor/plasteel), null, null)
+[21:07:15]/dmm_suite (/dmm_suite): create atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), the floor (85,195,4) (/turf/open/floor/plasteel))
+[21:07:15]/dmm_suite (/dmm_suite): instance atom(/obj/structure/glowshroom/sing... (/obj/structure/glowshroom/single), /list (/list), the floor (85,195,4) (/turf/open/floor/plasteel), 1)
+[21:07:15]/dmm_suite (/dmm_suite): parse grid("\n/obj/structure/alien/weeds{\...", "ci", 85, 195, 4, 1)
+[21:07:15]/dmm_suite (/dmm_suite): load map impl(_maps/RandomRuins/SpaceRuins/b..., 50, 175, 4, 1, null, 1, -1e+031, 1e+031, -1e+031, 1e+031)
+[21:07:15]/dmm_suite (/dmm_suite): load map(_maps/RandomRuins/SpaceRuins/b..., 50, 175, 4, 1, null, 1, null, null, null, null)
+[21:07:15]Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1): load(space (50,175,4) (/turf/open/space/basic), 1)
+[21:07:15]the random ruin (/obj/effect/ruin_loader): Load(/list (/list), Derelict Tradepost (/datum/map_template/ruin/space/bigderelict1))
+[21:07:15]seedRuins(/list (/list), 2, /area/space (/area/space), /list (/list))
+[21:07:15]Mapping (/datum/controller/subsystem/mapping): Initialize(3910)
+[21:07:15]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[21:07:15]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[21:07:15]proc name: New (/obj/structure/glowshroom/New)
+[21:07:15]  source file: glowshroom.dm,63
+runtime error: 
+[21:07:16]Cannot execute /datum/plant_gene/trait/glow (/datum/plant_gene/trait/glow).glow range().
+[21:07:16]proc name: New (/obj/structure/glowshroom/New)
+[21:07:16]  source file: glowshroom.dm,63
+Ruin "Abandoned Teleporter" placed at (64, 60, 4)
+Initialized Mapping subsystem within 45.5 seconds!
+runtime error: 
+[21:07:19]Cannot execute null.add reagent().
+[21:07:19]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[21:07:19]  source file: humans.dm,57
+runtime error: 
+[21:07:19]Cannot execute null.add reagent().
+[21:07:19]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[21:07:19]  source file: humans.dm,57
+runtime error: 
+[21:07:19]Cannot execute null.add reagent().
+[21:07:19]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[21:07:19]  source file: humans.dm,57
+runtime error: 
+[21:07:19]Cannot execute null.add reagent().
+[21:07:19]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[21:07:19]  source file: humans.dm,57
+runtime error: 
+[21:07:19]Cannot execute null.add reagent().
+[21:07:19]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:19]  source file: robots.dm,52
+runtime error: 
+[21:07:19]Cannot execute null.add reagent().
+[21:07:19]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:19]  source file: robots.dm,52
+runtime error: 
+[21:07:24]Cannot execute null.add reagent().
+[21:07:24]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:24]  source file: robots.dm,52
+runtime error: 
+[21:07:24]Cannot execute null.add reagent().
+[21:07:24]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:24]  source file: robots.dm,52
+runtime error: 
+[21:07:24]Cannot execute null.add reagent().
+[21:07:24]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:24]  source file: robots.dm,52
+runtime error: 
+[21:07:25]Cannot execute null.add reagent().
+[21:07:25]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[21:07:25]  source file: humans.dm,57
+runtime error: 
+[21:07:25]Cannot execute null.add reagent().
+[21:07:25]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:25]  source file: robots.dm,52
+runtime error: 
+[21:07:25]Cannot execute null.add reagent().
+[21:07:25]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[21:07:25]  source file: humans.dm,57
+runtime error: 
+[21:07:25]Cannot execute null.add reagent().
+[21:07:25]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:25]  source file: robots.dm,52
+runtime error: 
+[21:07:25]Cannot execute null.add reagent().
+[21:07:25]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[21:07:25]  source file: humans.dm,57
+runtime error: 
+[21:07:26]Cannot execute null.add reagent().
+[21:07:26]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:26]  source file: robots.dm,52
+runtime error: 
+[21:07:26]Cannot execute null.add reagent().
+[21:07:26]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:26]  source file: robots.dm,52
+runtime error: 
+[21:07:26]Cannot execute null.add reagent().
+[21:07:26]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:26]  source file: robots.dm,52
+runtime error: 
+[21:07:26]Cannot execute null.add reagent().
+[21:07:26]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:26]  source file: robots.dm,52
+runtime error: 
+[21:07:26]Cannot execute null.add reagent().
+[21:07:26]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:26]  source file: robots.dm,52
+runtime error: 
+[21:07:26]Cannot execute null.add reagent().
+[21:07:26]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:26]  source file: robots.dm,52
+runtime error: 
+[21:07:27]Cannot execute null.add reagent().
+[21:07:27]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:27]  source file: robots.dm,52
+runtime error: 
+[21:07:27]Cannot execute null.add reagent().
+[21:07:27]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:27]  source file: robots.dm,52
+runtime error: 
+[21:07:27]Cannot execute null.add reagent().
+[21:07:27]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:27]  source file: robots.dm,52
+runtime error: 
+[21:07:27]Cannot execute null.add reagent().
+[21:07:27]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:27]  source file: robots.dm,52
+runtime error: 
+[21:07:28]Cannot execute null.add reagent().
+[21:07:28]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:28]  source file: robots.dm,52
+runtime error: 
+[21:07:28]Cannot execute null.add reagent().
+[21:07:28]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:28]  source file: robots.dm,52
+runtime error: 
+[21:07:29]Cannot execute null.add reagent().
+[21:07:29]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:29]  source file: robots.dm,52
+runtime error: 
+[21:07:29]Cannot execute null.add reagent().
+[21:07:29]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:29]  source file: robots.dm,52
+runtime error: 
+[21:07:32]Cannot execute null.add reagent().
+[21:07:32]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:32]  source file: robots.dm,52
+runtime error: 
+[21:07:32]Cannot execute null.add reagent().
+[21:07:32]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:32]  source file: robots.dm,52
+runtime error: 
+[21:07:32]Cannot execute null.add reagent().
+[21:07:32]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:32]  source file: robots.dm,52
+runtime error: 
+[21:07:32]Cannot execute null.add reagent().
+[21:07:32]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:32]  source file: robots.dm,52
+runtime error: 
+[21:07:32]Cannot execute null.add reagent().
+[21:07:32]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:32]  source file: robots.dm,52
+runtime error: 
+[21:07:33]Cannot execute null.add reagent().
+[21:07:33]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:33]  source file: robots.dm,52
+runtime error: 
+[21:07:33]Cannot execute null.add reagent().
+[21:07:33]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:33]  source file: robots.dm,52
+runtime error: 
+[21:07:35]Cannot execute null.add reagent().
+[21:07:35]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:35]  source file: robots.dm,52
+runtime error: 
+[21:07:35]Cannot execute null.add reagent().
+[21:07:35]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:35]  source file: robots.dm,52
+runtime error: 
+[21:07:35]Cannot execute null.add reagent().
+[21:07:35]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:35]  source file: robots.dm,52
+runtime error: 
+[21:07:35]Cannot execute null.add reagent().
+[21:07:35]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:35]  source file: robots.dm,52
+runtime error: 
+[21:07:36]Cannot execute null.add reagent().
+[21:07:36]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:36]  source file: robots.dm,52
+runtime error: 
+[21:07:37]Cannot execute null.add reagent().
+[21:07:37]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:37]  source file: robots.dm,52
+runtime error: 
+[21:07:37]Cannot execute null.add reagent().
+[21:07:37]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:37]  source file: robots.dm,52
+runtime error: 
+[21:07:38]Cannot execute null.add reagent().
+[21:07:38]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:38]  source file: robots.dm,52
+runtime error: 
+[21:07:39]Cannot execute null.add reagent().
+[21:07:39]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:39]  source file: robots.dm,52
+runtime error: 
+[21:07:39]Cannot execute null.add reagent().
+[21:07:39]proc name: Initialize (/obj/effect/decal/cleanable/ash/Initialize)
+[21:07:39]  source file: misc.dm,16
+runtime error: 
+[21:07:39]Cannot execute null.add reagent().
+[21:07:39]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:39]  source file: robots.dm,52
+runtime error: 
+[21:07:39]Cannot execute null.add reagent().
+[21:07:39]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:39]  source file: robots.dm,52
+runtime error: 
+[21:07:39]Cannot execute null.add reagent().
+[21:07:39]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:39]  source file: robots.dm,52
+runtime error: 
+[21:07:39]Cannot execute null.add reagent().
+[21:07:39]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:39]  source file: robots.dm,52
+runtime error: 
+[21:07:39]Cannot execute null.add reagent().
+[21:07:39]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:39]  source file: robots.dm,52
+runtime error: 
+[21:07:39]Cannot execute null.add reagent().
+[21:07:39]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:39]  source file: robots.dm,52
+runtime error: 
+[21:07:39]Cannot execute null.add reagent().
+[21:07:39]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:39]  source file: robots.dm,52
+runtime error: 
+[21:07:40]Cannot execute null.add reagent().
+[21:07:40]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:40]  source file: robots.dm,52
+runtime error: 
+[21:07:40]Cannot execute null.add reagent().
+[21:07:40]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:40]  source file: robots.dm,52
+runtime error: 
+[21:07:40]Cannot execute null.add reagent().
+[21:07:40]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:40]  source file: robots.dm,52
+runtime error: 
+[21:07:40]Cannot execute null.add reagent().
+[21:07:40]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:40]  source file: robots.dm,52
+runtime error: 
+[21:07:40]Cannot execute null.add reagent().
+[21:07:40]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[21:07:40]  source file: humans.dm,57
+runtime error: 
+[21:07:40]Cannot execute null.add reagent().
+[21:07:40]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[21:07:40]  source file: humans.dm,57
+runtime error: 
+[21:07:40]Cannot execute null.add reagent().
+[21:07:40]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[21:07:40]  source file: humans.dm,57
+runtime error: 
+[21:07:40]Cannot execute null.add reagent().
+[21:07:40]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[21:07:40]  source file: humans.dm,57
+runtime error: 
+[21:07:40]Cannot execute null.add reagent().
+[21:07:40]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[21:07:40]  source file: humans.dm,57
+runtime error: 
+[21:07:40]Cannot execute null.add reagent().
+[21:07:40]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[21:07:40]  source file: humans.dm,57
+runtime error: 
+[21:07:40]Cannot execute null.add reagent().
+[21:07:40]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[21:07:40]  source file: humans.dm,57
+runtime error: 
+[21:07:40]Cannot execute null.add reagent().
+[21:07:40]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[21:07:40]  source file: humans.dm,57
+runtime error: 
+[21:07:40]Cannot execute null.add reagent().
+[21:07:40]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[21:07:40]  source file: humans.dm,57
+runtime error: 
+[21:07:40]Cannot execute null.add reagent().
+[21:07:40]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[21:07:40]  source file: humans.dm,57
+runtime error: 
+[21:07:40]Cannot execute null.add reagent().
+[21:07:40]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[21:07:40]  source file: humans.dm,57
+runtime error: 
+[21:07:40]Cannot execute null.add reagent().
+[21:07:40]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[21:07:40]  source file: humans.dm,57
+runtime error: 
+[21:07:40]Cannot execute null.add reagent().
+[21:07:40]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[21:07:40]  source file: humans.dm,57
+runtime error: 
+[21:07:40]Cannot execute null.add reagent().
+[21:07:40]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[21:07:40]  source file: humans.dm,57
+runtime error: 
+[21:07:40]Cannot execute null.add reagent().
+[21:07:40]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:40]  source file: robots.dm,52
+runtime error: 
+[21:07:40]Cannot execute null.add reagent().
+[21:07:40]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:40]  source file: robots.dm,52
+runtime error: 
+[21:07:40]Cannot execute null.add reagent().
+[21:07:40]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[21:07:40]  source file: robots.dm,52
+runtime error: 
+[21:07:41]Cannot execute null.add reagent().
+[21:07:41]Warning: further proc crash messages are being suppressed to prevent overload...
+runtime error: 
+[21:07:41]Cannot execute null.add reagent().
+runtime error: 
+[21:07:41]Cannot execute null.add reagent().
+runtime error: 
+[21:07:41]Cannot execute null.add reagent().
+runtime error: 
+[21:07:41]Cannot execute null.add reagent().
+runtime error: 
+[21:07:41]Cannot execute null.add reagent().
+runtime error: 
+[21:07:41]Cannot execute null.add reagent().
+runtime error: 
+[21:07:43]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:43]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:43]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:43]Undefined variable /obj/structure/signpost/salvation/var/swimming
+
+runtime error: 
+[21:07:43]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:43]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/effect/landmark/error/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:44]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:45]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:45]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:45]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:45]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:45]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:45]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:45]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:45]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:45]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:45]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:45]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:45]Undefined variable /obj/item/rupee/var/swimming
+
+runtime error: 
+[21:07:45]Undefined variable /obj/structure/speaking_tile/var/swimming
+
+runtime error: 
+[21:07:45]Undefined variable /obj/machinery/abductor/gland_dispenser/var/swimming
+
+runtime error: 
+[21:07:45]Undefined variable /obj/structure/table/abductor/var/swimming
+
+runtime error: 
+[21:07:45]Undefined variable /obj/item/surgicaldrill/alien/var/swimming
+
+runtime error: 
+[21:07:45]undefined proc or verb /mob/living/simple_animal/bot/medbot/mysterious/remove overlay().
+
+runtime error: 
+[21:07:45]undefined proc or verb /mob/living/simple_animal/hostile/creature/remove overlay().
+
+runtime error: 
+[21:07:46]undefined proc or verb /mob/living/simple_animal/hostile/carp/cayenne/remove overlay().
+
+runtime error: 
+[21:07:47]undefined proc or verb /mob/dead/new_player/remove overlay().
+
+runtime error: 
+[21:07:47]undefined proc or verb /mob/dead/new_player/remove overlay().
+
+runtime error: 
+[21:07:47]undefined proc or verb /mob/dead/new_player/remove overlay().
+
+runtime error: 
+[21:07:47]undefined proc or verb /mob/dead/new_player/remove overlay().
+
+runtime error: 
+[21:07:48]undefined proc or verb /mob/living/simple_animal/bot/medbot/remove overlay().
+
+runtime error: 
+[21:07:48]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[21:07:48]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[21:07:48]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[21:07:48]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[21:07:48]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[21:07:48]undefined proc or verb /mob/living/simple_animal/pet/cat/Runtime/remove overlay().
+
+runtime error: 
+[21:07:49]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[21:07:49]undefined proc or verb /mob/living/simple_animal/pet/dog/pug/remove overlay().
+
+runtime error: 
+[21:07:49]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[21:07:49]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[21:07:49]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[21:07:49]undefined proc or verb /mob/living/simple_animal/slime/remove overlay().
+
+runtime error: 
+[21:07:49]undefined proc or verb /mob/living/simple_animal/slime/remove overlay().
+
+runtime error: 
+[21:07:49]undefined proc or verb /mob/living/simple_animal/slime/remove overlay().
+
+runtime error: 
+[21:07:49]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[21:07:50]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[21:07:50]undefined proc or verb /mob/living/simple_animal/pet/dog/corgi/Ian/remove overlay().
+
+runtime error: 
+[21:07:50]undefined proc or verb /mob/living/simple_animal/bot/secbot/pingsky/remove overlay().
+
+runtime error: 
+[21:07:50]undefined proc or verb /mob/living/simple_animal/parrot/Poly/remove overlay().
+
+runtime error: 
+[21:07:50]undefined proc or verb /mob/living/simple_animal/bot/secbot/beepsky/remove overlay().
+
+runtime error: 
+[21:07:51]undefined proc or verb /mob/living/simple_animal/pet/fox/Renault/remove overlay().
+
+runtime error: 
+[21:07:51]undefined proc or verb /mob/living/simple_animal/hostile/carp/cayenne/remove overlay().
+
+runtime error: 
+[21:07:51]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[21:07:51]undefined proc or verb /mob/living/simple_animal/hostile/retaliate/goat/remove overlay().
+
+runtime error: 
+[21:07:52]undefined proc or verb /mob/living/simple_animal/sloth/citrus/remove overlay().
+
+runtime error: 
+[21:07:52]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[21:07:52]undefined proc or verb /mob/living/simple_animal/mouse/remove overlay().
+
+runtime error: 
+[21:07:52]undefined proc or verb /mob/living/simple_animal/mouse/remove overlay().
+
+runtime error: 
+[21:07:52]undefined proc or verb /mob/living/simple_animal/bot/mulebot/remove overlay().
+
+runtime error: 
+[21:07:52]undefined proc or verb /mob/living/simple_animal/bot/mulebot/remove overlay().
+
+runtime error: 
+[21:07:52]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[21:07:52]undefined proc or verb /mob/living/simple_animal/hostile/lizard/remove overlay().
+
+runtime error: 
+[21:07:52]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[21:07:52]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[21:07:53]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[21:07:53]undefined proc or verb /mob/living/simple_animal/cockroach/remove overlay().
+
+runtime error: 
+[21:07:57]undefined proc or verb /mob/living/simple_animal/hostile/creature/remove overlay().
+
+runtime error: 
+[21:07:57]undefined proc or verb /mob/living/simple_animal/hostile/creature/remove overlay().
+
+runtime error: 
+[21:07:57]undefined proc or verb /mob/living/simple_animal/hostile/creature/remove overlay().
+
+runtime error: 
+[21:07:57]undefined proc or verb /mob/living/simple_animal/hostile/creature/remove overlay().
+
+runtime error: 
+[21:07:57]undefined proc or verb /mob/living/simple_animal/hostile/creature/remove overlay().
+
+runtime error: 
+[21:07:57]undefined proc or verb /mob/living/simple_animal/hostile/creature/remove overlay().
+
+runtime error: 
+[21:07:57]undefined proc or verb /mob/living/simple_animal/hostile/creature/remove overlay().
+
+Initialized 900528 atoms
+Initialized Atoms subsystem within 83.4 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 3.7 seconds!
+Initialized Circuit subsystem within 0.1 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 57 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 2 seconds were wasted processing 57 turf(s) (connected to 21577 other turfs) with atmos differences at round start.
+Initialized Atmospherics subsystem within 42.9 seconds!
+Initialized Minimap subsystem within 0 seconds!
+Initialized Assets subsystem within 0.5 seconds!
+Initialized Icon Smoothing subsystem within 9.3 seconds!
+Initialized Overlay subsystem within 32.2 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Lighting subsystem within 26.1 seconds!
+Initialized Shuttle subsystem within 40.5 seconds!
+Initialized Squeak subsystem within 0 seconds!
+Loaded 0 engraved messages on map Delta Station
+Initialized Persistence subsystem within 0.2 seconds!
+Initializations complete within 285 seconds!
+Game start took 0s
+## WARNING: A ref was requested of an object with use_tag set but no tag: GimmesumsuccPls in code/__HELPERS/unsorted.dm at line 1500 src:  usr: GimmesumsuccPls.
+runtime error: 
+[21:11:27]Cannot read null.key
+runtime error: 
+[21:11:27]Cannot read null.martial_art
+runtime error: 
+[21:11:28]Cannot read null.martial_art
+## WARNING: A ref was requested of an object with use_tag set but no tag: AlcaroIsAFrick in code/__HELPERS/unsorted.dm at line 1500 src:  usr: AlcaroIsAFrick.
+runtime error: 
+[21:11:48]Cannot read null.key
+runtime error: 
+[21:11:48]Cannot read null.martial_art
+runtime error: 
+[21:11:49]Cannot read null.martial_art
+## WARNING: A ref was requested of an object with use_tag set but no tag: Reese4221 in code/__HELPERS/unsorted.dm at line 1500 src:  usr: Reese4221.
+runtime error: 
+[21:12:44]Cannot read null.key
+runtime error: 
+[21:12:44]Cannot read null.martial_art
+runtime error: 
+[21:12:46]Cannot read null.martial_art
+runtime error: 
+[21:15:55]Cannot execute null.add reagent().
+## WARNING: A ref was requested of an object with use_tag set but no tag: CaptinPicard1166 in code/__HELPERS/unsorted.dm at line 1500 src:  usr: CaptinPicard1166.
+runtime error: 
+[21:17:03]Cannot read null.key
+runtime error: 
+[21:17:03]Cannot read null.martial_art
+runtime error: 
+[21:17:04]Cannot read null.martial_art
+runtime error: 
+[21:18:31]list index out of bounds
+runtime error: 
+[21:18:33]Cannot read null.martial_art
+runtime error: 
+[21:18:35]Cannot read null.martial_art
+runtime error: 
+[21:18:37]Cannot read null.martial_art
+runtime error: 
+[21:18:37]Cannot read null.martial_art
+runtime error: 
+[21:18:39]list index out of bounds
+runtime error: 
+[21:18:40]Cannot read null.martial_art
+runtime error: 
+[21:18:40]list index out of bounds
+runtime error: 
+[21:18:40]Cannot execute null.add reagent().
+runtime error: 
+[21:18:40]Cannot execute null.add reagent().
+runtime error: 
+[21:18:40]Cannot execute null.add reagent().
+runtime error: 
+[21:18:41]Cannot execute null.add reagent().
+runtime error: 
+[21:18:41]Cannot execute null.add reagent().
+runtime error: 
+[21:18:41]Cannot execute null.add reagent().
+runtime error: 
+[21:18:41]Cannot read null.species
+runtime error: 
+[21:18:41]Cannot read null.species
+runtime error: 
+[21:18:41]Cannot read null.martial_art
+runtime error: 
+[21:18:41]Cannot read null.martial_art
+runtime error: 
+[21:18:42]Cannot read null.martial_art
+runtime error: 
+[21:18:42]Cannot read null.martial_art
+runtime error: 
+[21:18:43]Cannot read null.martial_art
+runtime error: 
+[21:18:44]Cannot read null.martial_art
+runtime error: 
+[21:18:45]Cannot read null.martial_art
+runtime error: 
+[21:18:45]Cannot read null.martial_art
+runtime error: 
+[21:18:46]Cannot read null.martial_art
+runtime error: 
+[21:18:46]Cannot read null.martial_art
+runtime error: 
+[21:18:47]Cannot read null.martial_art
+runtime error: 
+[21:18:47]Cannot read null.martial_art
+runtime error: 
+[21:18:48]Cannot read null.martial_art
+runtime error: 
+[21:18:50]Cannot read null.martial_art
+## WARNING: A ref was requested of an object with use_tag set but no tag: Akatsuki in code/__HELPERS/unsorted.dm at line 1500 src:  usr: .
+runtime error: 
+[21:18:50]Cannot read null.martial_art
+runtime error: 
+[21:18:52]Cannot read null.martial_art
+runtime error: 
+[21:18:52]Cannot read null.martial_art
+runtime error: 
+[21:18:53]Cannot read null.martial_art
+runtime error: 
+[21:18:53]Cannot read null.martial_art
+runtime error: 
+[21:18:55]Cannot read null.martial_art
+runtime error: 
+[21:18:56]Cannot read null.martial_art
+runtime error: 
+[21:18:57]Cannot read null.martial_art
+runtime error: 
+[21:18:58]Cannot read null.martial_art
+runtime error: 
+[21:18:59]Cannot read null.martial_art
+runtime error: 
+[21:19:00]Cannot read null.martial_art
+runtime error: 
+[21:19:00]Cannot read null.martial_art
+runtime error: 
+[21:19:01]Cannot read null.martial_art
+### VarEdit by AlcaroIsAFrick/(Alcaro): /obj/machinery/power/supermatter_shard/crystal/engine explosion_power=35 => 0.01
+runtime error: 
+[21:19:03]Cannot read null.martial_art
+runtime error: 
+[21:19:04]Cannot read null.martial_art
+runtime error: 
+[21:19:11]Cannot read null.martial_art
+runtime error: 
+[21:19:12]Cannot read null.martial_art
+runtime error: 
+[21:19:12]Cannot read null.martial_art
+runtime error: 
+[21:19:14]Cannot read null.martial_art
+runtime error: 
+[21:19:14]Cannot read null.martial_art
+runtime error: 
+[21:19:15]Cannot read null.martial_art
+runtime error: 
+[21:19:15]Cannot read null.martial_art
+runtime error: 
+[21:19:16]Cannot read null.martial_art
+runtime error: 
+[21:19:18]Cannot read null.martial_art
+runtime error: 
+[21:19:19]Cannot read null.martial_art
+runtime error: 
+[21:19:19]Cannot read null.martial_art
+runtime error: 
+[21:19:20]Cannot read null.martial_art
+runtime error: 
+[21:19:21]Cannot execute null.cult memorization().
+runtime error: 
+[21:19:21]Cannot read null.martial_art
+runtime error: 
+[21:19:22]No valid destination passed into forceMove
+runtime error: 
+[21:19:22]No valid destination passed into forceMove
+runtime error: 
+[21:19:22]Cannot read null.martial_art
+runtime error: 
+[21:19:22]No valid destination passed into forceMove
+runtime error: 
+[21:19:22]Cannot execute null.cult memorization().
+## WARNING: A ref was requested of an object with use_tag set but no tag: Officer Beepsky in code/__HELPERS/unsorted.dm at line 1500 src:  usr: Officer Beepsky.
+runtime error: 
+[21:20:54]Cannot execute null.add reagent().
+runtime error: 
+[21:21:34]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:34]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:34]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:34]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:34]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:34]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:34]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:34]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:34]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:34]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:34]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:34]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:34]Undefined variable /obj/effect/particle_effect/sparks/var/swimming
+
+runtime error: 
+[21:21:34]Undefined variable /obj/effect/particle_effect/sparks/var/swimming
+
+runtime error: 
+[21:21:34]Undefined variable /obj/effect/particle_effect/sparks/var/swimming
+
+runtime error: 
+[21:21:34]Undefined variable /obj/structure/closet/crate/secure/weapon/var/swimming
+
+runtime error: 
+[21:21:34]Undefined variable /obj/item/stack/sheet/metal/var/swimming
+
+runtime error: 
+[21:21:34]Undefined variable /obj/item/stack/sheet/metal/var/swimming
+
+runtime error: 
+[21:21:35]Undefined variable /obj/effect/particle_effect/sparks/var/swimming
+
+runtime error: 
+[21:21:35]Undefined variable /obj/effect/particle_effect/sparks/var/swimming
+
+runtime error: 
+[21:21:35]Undefined variable /obj/structure/closet/crate/secure/weapon/var/swimming
+
+runtime error: 
+[21:21:35]Undefined variable /obj/item/stack/sheet/metal/var/swimming
+
+runtime error: 
+[21:21:35]Undefined variable /obj/item/stack/sheet/metal/var/swimming
+
+runtime error: 
+[21:21:35]Undefined variable /obj/effect/particle_effect/sparks/var/swimming
+
+runtime error: 
+[21:21:36]Undefined variable /obj/structure/closet/crate/secure/weapon/var/swimming
+
+runtime error: 
+[21:21:36]Undefined variable /obj/item/stack/sheet/metal/var/swimming
+
+runtime error: 
+[21:21:36]Undefined variable /obj/item/stack/sheet/metal/var/swimming
+
+runtime error: 
+[21:21:36]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:36]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:36]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:36]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:36]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:36]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:36]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:36]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:36]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:36]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:36]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:36]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:36]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:36]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:36]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:36]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:36]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:36]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:36]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:36]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:36]Undefined variable /obj/item/projectile/beam/emitter/var/swimming
+
+runtime error: 
+[21:21:37]undefined proc or verb /mob/living/simple_animal/parrot/Poly/remove overlay().
+
+runtime error: 
+[21:21:37]Undefined variable /obj/effect/particle_effect/sparks/var/swimming
+
+runtime error: 
+[21:21:37]Undefined variable /obj/effect/particle_effect/sparks/var/swimming
+
+runtime error: 
+[21:21:37]Undefined variable /obj/effect/particle_effect/sparks/var/swimming
+
+runtime error: 
+[21:21:37]undefined proc or verb /mob/living/simple_animal/hostile/creature/remove overlay().
+
+runtime error: 
+[21:21:37]undefined proc or verb /mob/living/simple_animal/hostile/creature/remove overlay().
+
+runtime error: 
+[21:21:37]undefined proc or verb /mob/living/simple_animal/hostile/creature/remove overlay().
+
+runtime error: 
+[21:21:37]undefined proc or verb /mob/living/simple_animal/hostile/creature/remove overlay().
+
+runtime error: 
+[21:21:37]undefined proc or verb /mob/living/simple_animal/hostile/creature/remove overlay().
+
+runtime error: 
+[21:21:37]undefined proc or verb /mob/living/simple_animal/hostile/asteroid/hivelord/legion/random/remove overlay().
+
+runtime error: 
+[21:21:37]undefined proc or verb /mob/living/simple_animal/hostile/asteroid/goldgrub/remove overlay().
+
+runtime error: 
+[21:21:37]undefined proc or verb /mob/living/simple_animal/hostile/megafauna/dragon/remove overlay().
+
+runtime error: 
+[21:21:37]undefined proc or verb /mob/living/simple_animal/parrot/Poly/remove overlay().
+
+runtime error: 
+[21:21:37]undefined proc or verb /mob/living/simple_animal/hostile/asteroid/hivelord/legion/random/remove overlay().
+
+runtime error: 
+[21:21:37]undefined proc or verb /mob/living/simple_animal/hostile/asteroid/goldgrub/remove overlay().
+
+runtime error: 
+[21:21:37]undefined proc or verb /mob/living/simple_animal/hostile/creature/remove overlay().
+
+runtime error: 
+[21:21:37]undefined proc or verb /mob/living/simple_animal/hostile/asteroid/goliath/beast/random/remove overlay().
+
+runtime error: 
+[21:21:38]undefined proc or verb /mob/living/simple_animal/hostile/asteroid/goliath/beast/random/remove overlay().
+
+runtime error: 
+[21:21:38]undefined proc or verb /mob/living/simple_animal/hostile/asteroid/goliath/beast/random/remove overlay().
+
+runtime error: 
+[21:21:38]undefined proc or verb /mob/living/simple_animal/hostile/asteroid/goliath/beast/random/remove overlay().
+
+runtime error: 
+[21:21:38]undefined proc or verb /mob/living/simple_animal/hostile/asteroid/goliath/beast/random/remove overlay().
+
+runtime error: 
+[21:21:38]undefined proc or verb /mob/living/simple_animal/hostile/asteroid/goliath/beast/random/remove overlay().
+
+runtime error: 
+[21:21:38]undefined proc or verb /mob/living/simple_animal/parrot/Poly/remove overlay().
+
+runtime error: 
+[21:21:38]undefined proc or verb /mob/living/simple_animal/hostile/asteroid/hivelord/legion/random/remove overlay().
+
+runtime error: 
+[21:21:38]undefined proc or verb /mob/living/simple_animal/hostile/asteroid/hivelord/legion/random/remove overlay().
+
+runtime error: 
+[21:21:38]undefined proc or verb /mob/living/simple_animal/hostile/asteroid/hivelord/legion/random/remove overlay().
+
+runtime error: 
+[21:21:38]undefined proc or verb /mob/living/simple_animal/hostile/asteroid/hivelord/legion/random/remove overlay().
+
+runtime error: 
+[21:21:38]undefined proc or verb /mob/living/simple_animal/hostile/creature/remove overlay().
+
+runtime error: 
+[21:21:38]undefined proc or verb /mob/living/simple_animal/butterfly/remove overlay().
+
+runtime error: 
+[21:21:38]undefined proc or verb /mob/living/simple_animal/butterfly/remove overlay().
+
+runtime error: 
+[21:21:38]undefined proc or verb /mob/living/simple_animal/butterfly/remove overlay().
+
+runtime error: 
+[21:21:38]undefined proc or verb /mob/living/simple_animal/butterfly/remove overlay().
+
+runtime error: 
+[21:21:38]undefined proc or verb /mob/living/simple_animal/butterfly/remove overlay().
+
+runtime error: 
+[21:21:38]undefined proc or verb /mob/living/simple_animal/hostile/asteroid/goliath/beast/random/remove overlay().
+
+runtime error: 
+[21:21:38]undefined proc or verb /mob/living/simple_animal/butterfly/remove overlay().
+
+runtime error: 
+[21:21:39]undefined proc or verb /mob/living/simple_animal/butterfly/remove overlay().
+
+runtime error: 
+[21:21:39]undefined proc or verb /mob/living/simple_animal/butterfly/remove overlay().
+
+runtime error: 
+[21:21:39]undefined proc or verb /mob/living/simple_animal/butterfly/remove overlay().
+
+runtime error: 
+[21:21:39]undefined proc or verb /mob/living/simple_animal/butterfly/remove overlay().
+
+runtime error: 
+[21:21:39]undefined proc or verb /mob/living/simple_animal/hostile/asteroid/hivelord/legion/random/remove overlay().
+
+runtime error: 
+[21:21:39]undefined proc or verb /mob/living/simple_animal/hostile/asteroid/goliath/beast/random/remove overlay().
+
+runtime error: 
+[21:21:39]undefined proc or verb /mob/living/simple_animal/hostile/asteroid/goliath/beast/random/remove overlay().
+
+runtime error: 
+[21:21:39]undefined proc or verb /mob/living/simple_animal/hostile/asteroid/goliath/beast/random/remove overlay().
+
+runtime error: 
+[21:21:39]undefined proc or verb /mob/living/simple_animal/hostile/megafauna/dragon/remove overlay().
+
+runtime error: 
+[21:21:39]undefined proc or verb /mob/living/simple_animal/hostile/megafauna/colossus/remove overlay().
+
+runtime error: 
+[21:21:39]undefined proc or verb /mob/living/simple_animal/hostile/asteroid/goldgrub/remove overlay().
+
+runtime error: 
+[21:21:39]undefined proc or verb /mob/living/simple_animal/hostile/asteroid/goldgrub/remove overlay().
+
+runtime error: 
+[21:21:39]undefined proc or verb /mob/living/simple_animal/hostile/megafauna/dragon/remove overlay().
+
+runtime error: 
+[21:21:39]undefined proc or verb /mob/living/simple_animal/hostile/creature/remove overlay().
+
+runtime error: 
+[21:21:39]undefined proc or verb /mob/living/simple_animal/hostile/asteroid/goliath/beast/random/remove overlay().
+
+runtime error: 
+[21:21:39]undefined proc or verb /mob/living/simple_animal/hostile/asteroid/goliath/beast/random/remove overlay().
+
+runtime error: 
+[21:21:39]undefined proc or verb /mob/living/simple_animal/hostile/asteroid/goliath/beast/random/remove overlay().
+
+runtime error: 
+[21:21:39]undefined proc or verb /mob/living/simple_animal/hostile/asteroid/goliath/beast/random/remove overlay().
+
+runtime error: 
+[21:21:39]undefined proc or verb /mob/living/simple_animal/hostile/asteroid/goliath/beast/random/remove overlay().
+
+runtime error: 
+[21:23:54]list index out of bounds
+runtime error: 
+[21:24:14]list index out of bounds
+runtime error: 
+[21:24:15]list index out of bounds
+runtime error: 
+[21:24:32]Cannot execute null.add reagent().
+runtime error: 
+[21:24:32]Cannot execute null.add reagent().
+runtime error: 
+[21:24:32]Cannot execute null.add reagent().
+runtime error: 
+[21:24:32]Cannot execute null.add reagent().
+runtime error: 
+[21:24:32]Cannot execute null.add reagent().
+runtime error: 
+[21:24:32]Cannot execute null.add reagent().
+runtime error: 
+[21:25:24]Cannot execute null.add reagent().
+runtime error: 
+[21:25:41]list index out of bounds
+runtime error: 
+[21:25:41]Undefined variable /turf/open/floor/plasteel/var/attached_hand
+
+runtime error: 
+[21:26:02]list index out of bounds
+runtime error: 
+[21:26:11]undefined variable /obj/effect/particle_effect/sparks/var/swimming
+runtime error: 
+[21:26:11]undefined variable /obj/effect/particle_effect/sparks/var/swimming
+runtime error: 
+[21:26:11]undefined variable /obj/effect/particle_effect/sparks/var/swimming
+runtime error: 
+[21:26:13]undefined variable /obj/effect/particle_effect/sparks/var/swimming
+runtime error: 
+[21:26:13]undefined variable /obj/effect/particle_effect/sparks/var/swimming
+runtime error: 
+[21:26:13]undefined variable /obj/effect/particle_effect/sparks/var/swimming
+runtime error: 
+[21:26:14]undefined variable /obj/effect/particle_effect/sparks/var/swimming
+runtime error: 
+[21:26:19]Cannot execute null.add reagent().
+runtime error: 
+[21:26:23]Cannot read null.blobs_legit
+runtime error: 
+[21:26:23]Cannot read null.blobs_legit
+runtime error: 
+[21:26:29]Cannot read null.blobs_legit
+runtime error: 
+[21:26:29]Cannot read null.blobs_legit
+runtime error: 
+[21:26:33]Cannot execute null.add reagent().
+runtime error: 
+[21:26:35]list index out of bounds
+runtime error: 
+[21:26:42]pick() from empty list
+## WARNING: A ref was requested of an object with use_tag set but no tag: the new player in code/__HELPERS/unsorted.dm at line 1500 src:  usr: the new player.
+runtime error: 
+[21:26:54]Cannot read null.key
+runtime error: 
+[21:26:55]Cannot read null.martial_art
+runtime error: 
+[21:26:55]Cannot read null.martial_art
+## WARNING: A ref was requested of an object with use_tag set but no tag: the station self-destruct terminal in code/__HELPERS/unsorted.dm at line 1500 src:  usr: .
+runtime error: 
+[21:28:04]Cannot execute null.add reagent().
+runtime error: 
+[21:28:04]Cannot execute null.add reagent().
+runtime error: 
+[21:28:04]Cannot execute null.add reagent().
+runtime error: 
+[21:28:04]Cannot execute null.add reagent().
+runtime error: 
+[21:28:04]Cannot execute null.add reagent().
+runtime error: 
+[21:28:04]Cannot execute null.add reagent().
+runtime error: 
+[21:28:04]Cannot execute null.add reagent().
+runtime error: 
+[21:28:18]Cannot execute null.add reagent().
+runtime error: 
+[21:28:28]Cannot execute null.add reagent().
+runtime error: 
+[21:28:43]Cannot execute null.add reagent().
+runtime error: 
+[21:28:43]Cannot execute null.add reagent().
+runtime error: 
+[21:28:43]Cannot execute null.add reagent().
+runtime error: 
+[21:28:43]Cannot execute null.add reagent().
+runtime error: 
+[21:28:43]Cannot execute null.add reagent().
+runtime error: 
+[21:28:43]Cannot execute null.add reagent().
+runtime error: 
+[21:28:43]Cannot read null.martial_art
+runtime error: 
+[21:28:43]Cannot execute null.add reagent().
+runtime error: 
+[21:28:43]Cannot execute null.add reagent().
+runtime error: 
+[21:28:43]Cannot execute null.add reagent().
+runtime error: 
+[21:28:43]Cannot execute null.add reagent().
+runtime error: 
+[21:28:43]Cannot execute null.add reagent().
+runtime error: 
+[21:28:43]Cannot execute null.add reagent().
+runtime error: 
+[21:28:43]Cannot execute null.add reagent().
+runtime error: 
+[21:28:43]Cannot execute null.add reagent().
+runtime error: 
+[21:28:43]Cannot execute null.add reagent().
+runtime error: 
+[21:28:43]Cannot execute null.add reagent().
+runtime error: 
+[21:28:43]Cannot execute null.add reagent().
+runtime error: 
+[21:28:43]Cannot execute null.add reagent().
+runtime error: 
+[21:28:44]Cannot execute null.add reagent().
+runtime error: 
+[21:28:44]Cannot execute null.add reagent().
+runtime error: 
+[21:28:44]Cannot execute null.add reagent().
+runtime error: 
+[21:28:44]Cannot execute null.add reagent().
+runtime error: 
+[21:28:44]Cannot execute null.add reagent().
+runtime error: 
+[21:28:44]Cannot read null.martial_art
+runtime error: 
+[21:28:45]Cannot read null.martial_art
+runtime error: 
+[21:30:40]Cannot execute null.add reagent().
+runtime error: 
+[21:31:04]Cannot execute null.add reagent().
+runtime error: 
+[21:31:13]Cannot execute null.add reagent().
+runtime error: 
+[21:31:17]Cannot modify null.parallax_animate_timer.
+runtime error: 
+[21:31:25]Cannot execute null.add reagent().
+runtime error: 
+[21:31:33]Cannot execute null.add reagent().
+runtime error: 
+[21:31:37]Cannot execute null.add reagent().
+runtime error: 
+[21:31:47]Cannot execute null.add reagent().
+runtime error: 
+[21:31:49]Cannot execute null.add reagent().
+runtime error: 
+[21:31:50]Cannot execute null.add reagent().
+runtime error: 
+[21:31:56]Cannot execute null.add reagent().
+runtime error: 
+[21:32:35]Cannot execute null.reaction().
+runtime error: 
+[21:32:48]Undefined variable /obj/item/stack/sheet/metal/var/swimming
+
+runtime error: 
+[21:32:48]Undefined variable /obj/item/stack/sheet/metal/var/swimming
+
+runtime error: 
+[21:32:48]Undefined variable /obj/item/stack/sheet/metal/var/swimming
+
+runtime error: 
+[21:32:48]Undefined variable /obj/item/stack/sheet/metal/var/swimming
+
+runtime error: 
+[21:32:48]Undefined variable /obj/item/stack/sheet/metal/var/swimming
+
+runtime error: 
+[21:32:49]Undefined variable /obj/item/stack/sheet/metal/var/swimming
+
+runtime error: 
+[21:32:49]Undefined variable /obj/item/stack/sheet/metal/var/swimming
+
+runtime error: 
+[21:32:49]Undefined variable /obj/item/stack/sheet/metal/var/swimming
+
+runtime error: 
+[21:32:49]Undefined variable /obj/item/stack/sheet/metal/var/swimming
+
+runtime error: 
+[21:32:49]Undefined variable /obj/item/stack/sheet/metal/var/swimming
+
+runtime error: 
+[21:32:49]Undefined variable /obj/item/stack/sheet/metal/var/swimming
+
+runtime error: 
+[21:32:49]Undefined variable /obj/item/stack/sheet/metal/var/swimming
+
+runtime error: 
+[21:32:49]Undefined variable /obj/item/stack/sheet/metal/var/swimming
+
+runtime error: 
+[21:32:49]Undefined variable /obj/effect/abstract/proximity_checker/var/swimming
+
+runtime error: 
+[21:32:49]Undefined variable /atom/movable/lighting_object/var/swimming
+
+runtime error: 
+[21:32:49]Undefined variable /obj/machinery/atmospherics/pipe/simple/supply/hidden/var/swimming
+
+runtime error: 
+[21:32:49]Undefined variable /obj/structure/disposalpipe/segment/var/swimming
+
+runtime error: 
+[21:32:49]Undefined variable /atom/movable/lighting_object/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/reagent_containers/glass/bucket/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/reagent_containers/glass/bucket/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/reagent_containers/glass/bucket/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/reagent_containers/glass/bucket/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/reagent_containers/glass/bucket/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/reagent_containers/glass/bucket/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/reagent_containers/glass/bucket/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/reagent_containers/glass/bucket/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/wrench/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/wrench/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/wrench/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/wrench/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/wrench/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/wrench/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/wrench/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/wrench/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/machinery/atmospherics/pipe/simple/supply/hidden/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/structure/disposalpipe/segment/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/structure/lattice/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/stack/sheet/metal/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/crowbar/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/crowbar/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/crowbar/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/crowbar/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/crowbar/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/crowbar/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/crowbar/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/crowbar/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/stack/sheet/metal/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/stack/sheet/metal/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/stack/sheet/metal/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/item/stack/sheet/metal/var/swimming
+
+runtime error: 
+[21:32:50]Undefined variable /obj/structure/chair/var/swimming
+
+runtime error: 
+[21:32:53]undefined proc or verb /mob/living/simple_animal/hostile/hivebot/remove overlay().
+
+runtime error: 
+[21:32:53]undefined proc or verb /mob/living/simple_animal/hostile/hivebot/range/remove overlay().
+
+runtime error: 
+[21:32:53]undefined proc or verb /mob/living/simple_animal/hostile/hivebot/remove overlay().
+
+runtime error: 
+[21:32:53]undefined proc or verb /mob/living/simple_animal/hostile/creature/remove overlay().
+
+runtime error: 
+[21:32:53]undefined proc or verb /mob/living/simple_animal/hostile/hivebot/strong/remove overlay().
+
+runtime error: 
+[21:32:53]undefined proc or verb /mob/living/simple_animal/hostile/hivebot/range/remove overlay().
+
+runtime error: 
+[21:32:53]undefined proc or verb /mob/living/simple_animal/hostile/hivebot/remove overlay().
+
+runtime error: 
+[21:32:54]undefined proc or verb /mob/living/simple_animal/hostile/hivebot/remove overlay().
+
+runtime error: 
+[21:32:54]undefined proc or verb /mob/living/simple_animal/hostile/hivebot/remove overlay().
+
+runtime error: 
+[21:32:54]undefined proc or verb /mob/living/simple_animal/hostile/hivebot/remove overlay().
+
+runtime error: 
+[21:32:54]undefined proc or verb /mob/living/simple_animal/hostile/hivebot/remove overlay().
+
+runtime error: 
+[21:32:54]undefined proc or verb /mob/living/simple_animal/hostile/hivebot/remove overlay().
+
+runtime error: 
+[21:32:55]undefined proc or verb /mob/living/simple_animal/hostile/creature/remove overlay().
+
+runtime error: 
+[21:32:55]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:55]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:55]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:56]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:56]undefined proc or verb /mob/living/simple_animal/hostile/creature/remove overlay().
+
+runtime error: 
+[21:32:56]undefined proc or verb /mob/living/simple_animal/hostile/hivebot/strong/remove overlay().
+
+runtime error: 
+[21:32:56]undefined proc or verb /mob/living/simple_animal/hostile/hivebot/remove overlay().
+
+runtime error: 
+[21:32:56]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:56]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:56]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:56]undefined proc or verb /mob/living/simple_animal/hostile/hivebot/remove overlay().
+
+runtime error: 
+[21:32:56]undefined proc or verb /mob/living/simple_animal/hostile/hivebot/range/remove overlay().
+
+runtime error: 
+[21:32:56]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:56]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:56]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:56]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:57]undefined proc or verb /mob/living/simple_animal/hostile/hivebot/remove overlay().
+
+runtime error: 
+[21:32:57]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:57]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:57]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:57]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:57]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:57]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:57]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:57]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:57]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:57]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:57]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:57]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:57]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:57]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:58]undefined proc or verb /mob/living/simple_animal/hostile/creature/remove overlay().
+
+runtime error: 
+[21:32:58]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:58]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:58]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:58]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:58]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+runtime error: 
+[21:32:58]undefined proc or verb /mob/living/simple_animal/bot/floorbot/remove overlay().
+
+Shutting down Persistence subsystem...
+Shutting down Squeak subsystem...
+Shutting down Shuttle subsystem...
+Shutting down Lighting subsystem...
+Shutting down XKeyScore subsystem...
+Shutting down Sticky Ban subsystem...
+Shutting down Overlay subsystem...
+Shutting down Icon Smoothing subsystem...
+Shutting down Assets subsystem...
+Shutting down Minimap subsystem...
+Shutting down Atmospherics subsystem...
+Shutting down Weather subsystem...
+Shutting down Vote subsystem...
+Shutting down Title Screen subsystem...
+Shutting down Time Tracking subsystem...
+Shutting down Throwing subsystem...
+Shutting down tgui subsystem...
+Shutting down Sun subsystem...
+Shutting down Space Drift subsystem...
+Shutting down Religion subsystem...
+Shutting down Radio subsystem...
+Shutting down Radiation subsystem...
+Shutting down Projectiles subsystem...
+Shutting down Processing subsystem...
+Shutting down Parallax subsystem...
+Shutting down pAI subsystem...
+Shutting down Orbits subsystem...
+Shutting down Objects subsystem...
+Shutting down NPC Pool subsystem...
+Shutting down Mobs subsystem...
+Shutting down Inbounds subsystem...
+Shutting down Idling NPC Pool subsystem...
+Shutting down Garbage subsystem...
+Shutting down Flightpack Movement subsystem...
+Shutting down Fire Burning subsystem...
+Shutting down Fields subsystem...
+Shutting down Fast Processing subsystem...
+Shutting down Disease subsystem...
+Shutting down Communications subsystem...
+Shutting down Augury subsystem...
+Shutting down Acid subsystem...
+Shutting down Timer subsystem...
+Shutting down Circuit subsystem...
+Shutting down Machines subsystem...
+Shutting down Language subsystem...
+Shutting down Atoms subsystem...
+Shutting down Mapping subsystem...
+Shutting down Ticker subsystem...
+Shutting down Jobs subsystem...
+Shutting down Events subsystem...
+Shutting down Server Tasks subsystem...
+Shutting down Blackbox subsystem...
+Shutting down Database subsystem...
+Shutdown complete
+World rebooted at 21:33:21

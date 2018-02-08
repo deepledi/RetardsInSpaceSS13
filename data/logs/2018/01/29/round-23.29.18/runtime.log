@@ -1,0 +1,20 @@
+
+
+Starting up round ID . 23:29:18
+---------------------
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+runtime error: 
+[23:29:20]cannot read from list
+[23:29:20]proc name: LoadJobs (/datum/controller/subsystem/job/proc/LoadJobs)
+[23:29:20]  source file: job.dm,448
+[23:29:20]  usr: null
+[23:29:20]  src: Jobs (/datum/controller/subsystem/job)
+[23:29:20]  call stack:
+[23:29:20]Jobs (/datum/controller/subsystem/job): LoadJobs()
+[23:29:20]Jobs (/datum/controller/subsystem/job): Initialize(125599)
+[23:29:20]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Jobs subsystem within 0.3 seconds!
+Initialized Ticker subsystem within 0 seconds!
+Loading Delta Station...

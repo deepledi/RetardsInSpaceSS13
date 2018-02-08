@@ -1,0 +1,953 @@
+
+
+Starting up round ID . 13:35:04
+---------------------
+Initialized Blackbox subsystem within 0 seconds!
+Initialized Server Tasks subsystem within 0 seconds!
+Initialized Events subsystem within 0 seconds!
+runtime error: 
+[13:35:06]cannot read from list
+[13:35:06]proc name: LoadJobs (/datum/controller/subsystem/job/proc/LoadJobs)
+[13:35:06]  source file: job.dm,448
+[13:35:06]  usr: null
+[13:35:06]  src: Jobs (/datum/controller/subsystem/job)
+[13:35:06]  call stack:
+[13:35:06]Jobs (/datum/controller/subsystem/job): LoadJobs()
+[13:35:06]Jobs (/datum/controller/subsystem/job): Initialize(597064)
+[13:35:06]Master (/datum/controller/master): Initialize(10, 0)
+Initialized Jobs subsystem within 0.1 seconds!
+Initialized Ticker subsystem within 0.1 seconds!
+Loading Delta Station...
+Loaded station in 41.3s!
+Ruin "Hierophant's Arena" placed at (213, 92, 5)
+Ruin "Biodome Clown Planet" placed at (149, 121, 5)
+Ruin "Ruin of Greed" placed at (32, 186, 5)
+Ruin "Blood-Drunk Miner (Hunter)" placed at (175, 76, 5)
+Ruin "Free Golem Ship" placed at (199, 177, 5)
+Ruin "UFO Crash" placed at (93, 69, 5)
+Ruin "Survival Capsule Ruins" placed at (145, 72, 5)
+Ruin "Ruin of Envy" placed at (215, 196, 5)
+Ruin "Ripley" placed at (99, 196, 5)
+Ruin "Syndicate Listening Station" placed at (69, 107, 11)
+Ruin "Derelict 3" placed at (158, 68, 8)
+Ruin "Authorship" placed at (156, 54, 4)
+Ruin "CF Corsair" placed at (77, 201, 3)
+Ruin "Asteroid 4" placed at (155, 190, 7)
+Ruin "Survivalist Bunker" placed at (71, 78, 3)
+Ruin "Biological Storage Facility" placed at (120, 131, 10)
+Ruin "Gondoland" placed at (213, 42, 3)
+Ruin "Asteroid 2" placed at (179, 149, 11)
+Ruin "Kosmicheskaya Stantsiya 13" placed at (123, 127, 4)
+Ruin "Ordinary Space Tile" placed at (63, 36, 10)
+Ruin "DJ Station" placed at (190, 198, 10)
+Ruin "Ancient Space Station" placed at (169, 146, 7)
+Ruin "Strange Ship" placed at (192, 104, 4)
+Ruin "Abandoned Telecommunications Satellite" placed at (77, 107, 9)
+Ruin "Waylaid Buses" placed at (166, 144, 3)
+Initialized Mapping subsystem within 53.2 seconds!
+runtime error: 
+[13:36:02]Cannot execute null.add reagent().
+[13:36:02]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[13:36:02]  source file: humans.dm,57
+[13:36:02]  usr: null
+[13:36:02]  src: the gibs (/obj/effect/decal/cleanable/blood/gibs/body)
+[13:36:02]  src.loc: null
+[13:36:02]  call stack:
+[13:36:02]the gibs (/obj/effect/decal/cleanable/blood/gibs/body): Initialize(1, null)
+[13:36:02]Atoms (/datum/controller/subsystem/atoms): InitAtom(the gibs (/obj/effect/decal/cleanable/blood/gibs/body), /list (/list))
+[13:36:02]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[13:36:02]Atoms (/datum/controller/subsystem/atoms): Initialize(597598)
+[13:36:02]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[13:36:02]Cannot execute null.add reagent().
+[13:36:02]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[13:36:02]  source file: humans.dm,57
+[13:36:02]  usr: null
+[13:36:02]  src: the gibs (/obj/effect/decal/cleanable/blood/gibs/body)
+[13:36:02]  src.loc: null
+[13:36:02]  call stack:
+[13:36:02]the gibs (/obj/effect/decal/cleanable/blood/gibs/body): Initialize(1, null)
+[13:36:02]Atoms (/datum/controller/subsystem/atoms): InitAtom(the gibs (/obj/effect/decal/cleanable/blood/gibs/body), /list (/list))
+[13:36:02]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[13:36:02]Atoms (/datum/controller/subsystem/atoms): Initialize(597598)
+[13:36:02]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[13:36:02]Cannot execute null.add reagent().
+[13:36:02]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[13:36:02]  source file: humans.dm,57
+[13:36:02]  usr: null
+[13:36:02]  src: the gibs (/obj/effect/decal/cleanable/blood/gibs/body)
+[13:36:02]  src.loc: null
+[13:36:02]  call stack:
+[13:36:02]the gibs (/obj/effect/decal/cleanable/blood/gibs/body): Initialize(1, null)
+[13:36:02]Atoms (/datum/controller/subsystem/atoms): InitAtom(the gibs (/obj/effect/decal/cleanable/blood/gibs/body), /list (/list))
+[13:36:02]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[13:36:02]Atoms (/datum/controller/subsystem/atoms): Initialize(597598)
+[13:36:02]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[13:36:02]Cannot execute null.add reagent().
+[13:36:02]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[13:36:02]  source file: humans.dm,57
+[13:36:02]  usr: null
+[13:36:02]  src: the gibs (/obj/effect/decal/cleanable/blood/gibs/body)
+[13:36:02]  src.loc: null
+[13:36:02]  call stack:
+[13:36:02]the gibs (/obj/effect/decal/cleanable/blood/gibs/body): Initialize(1, null)
+[13:36:02]Atoms (/datum/controller/subsystem/atoms): InitAtom(the gibs (/obj/effect/decal/cleanable/blood/gibs/body), /list (/list))
+[13:36:02]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[13:36:02]Atoms (/datum/controller/subsystem/atoms): Initialize(597598)
+[13:36:02]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[13:36:03]Cannot execute null.add reagent().
+[13:36:03]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:03]  source file: robots.dm,52
+[13:36:03]  usr: null
+[13:36:03]  src: the motor oil (/obj/effect/decal/cleanable/oil)
+[13:36:03]  src.loc: null
+[13:36:03]  call stack:
+[13:36:03]the motor oil (/obj/effect/decal/cleanable/oil): Initialize(1)
+[13:36:03]Atoms (/datum/controller/subsystem/atoms): InitAtom(the motor oil (/obj/effect/decal/cleanable/oil), /list (/list))
+[13:36:03]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[13:36:03]Atoms (/datum/controller/subsystem/atoms): Initialize(597598)
+[13:36:03]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[13:36:03]Cannot execute null.add reagent().
+[13:36:03]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:03]  source file: robots.dm,52
+[13:36:03]  usr: null
+[13:36:03]  src: the motor oil (/obj/effect/decal/cleanable/oil)
+[13:36:03]  src.loc: null
+[13:36:03]  call stack:
+[13:36:03]the motor oil (/obj/effect/decal/cleanable/oil): Initialize(1)
+[13:36:03]Atoms (/datum/controller/subsystem/atoms): InitAtom(the motor oil (/obj/effect/decal/cleanable/oil), /list (/list))
+[13:36:03]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[13:36:03]Atoms (/datum/controller/subsystem/atoms): Initialize(597598)
+[13:36:03]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[13:36:10]Cannot execute null.add reagent().
+[13:36:10]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:10]  source file: robots.dm,52
+[13:36:10]  usr: null
+[13:36:10]  src: the motor oil (/obj/effect/decal/cleanable/oil)
+[13:36:10]  src.loc: null
+[13:36:10]  call stack:
+[13:36:10]the motor oil (/obj/effect/decal/cleanable/oil): Initialize(1)
+[13:36:10]Atoms (/datum/controller/subsystem/atoms): InitAtom(the motor oil (/obj/effect/decal/cleanable/oil), /list (/list))
+[13:36:10]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[13:36:10]Atoms (/datum/controller/subsystem/atoms): Initialize(597598)
+[13:36:10]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[13:36:10]Cannot execute null.add reagent().
+[13:36:10]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:10]  source file: robots.dm,52
+[13:36:10]  usr: null
+[13:36:10]  src: the motor oil (/obj/effect/decal/cleanable/oil)
+[13:36:10]  src.loc: null
+[13:36:10]  call stack:
+[13:36:10]the motor oil (/obj/effect/decal/cleanable/oil): Initialize(1)
+[13:36:10]Atoms (/datum/controller/subsystem/atoms): InitAtom(the motor oil (/obj/effect/decal/cleanable/oil), /list (/list))
+[13:36:10]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[13:36:10]Atoms (/datum/controller/subsystem/atoms): Initialize(597598)
+[13:36:10]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[13:36:10]Cannot execute null.add reagent().
+[13:36:10]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:10]  source file: robots.dm,52
+[13:36:10]  usr: null
+[13:36:10]  src: the motor oil (/obj/effect/decal/cleanable/oil)
+[13:36:10]  src.loc: null
+[13:36:10]  call stack:
+[13:36:10]the motor oil (/obj/effect/decal/cleanable/oil): Initialize(1)
+[13:36:10]Atoms (/datum/controller/subsystem/atoms): InitAtom(the motor oil (/obj/effect/decal/cleanable/oil), /list (/list))
+[13:36:10]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[13:36:10]Atoms (/datum/controller/subsystem/atoms): Initialize(597598)
+[13:36:10]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[13:36:10]Cannot execute null.add reagent().
+[13:36:10]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[13:36:10]  source file: humans.dm,57
+[13:36:10]  usr: null
+[13:36:10]  src: the gibs (/obj/effect/decal/cleanable/blood/gibs/limb)
+[13:36:10]  src.loc: null
+[13:36:10]  call stack:
+[13:36:10]the gibs (/obj/effect/decal/cleanable/blood/gibs/limb): Initialize(1, null)
+[13:36:10]Atoms (/datum/controller/subsystem/atoms): InitAtom(the gibs (/obj/effect/decal/cleanable/blood/gibs/limb), /list (/list))
+[13:36:10]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[13:36:10]Atoms (/datum/controller/subsystem/atoms): Initialize(597598)
+[13:36:10]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[13:36:11]Cannot execute null.add reagent().
+[13:36:11]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[13:36:11]  source file: humans.dm,57
+[13:36:11]  usr: null
+[13:36:11]  src: the gibs (/obj/effect/decal/cleanable/blood/gibs/body)
+[13:36:11]  src.loc: null
+[13:36:11]  call stack:
+[13:36:11]the gibs (/obj/effect/decal/cleanable/blood/gibs/body): Initialize(1, null)
+[13:36:11]Atoms (/datum/controller/subsystem/atoms): InitAtom(the gibs (/obj/effect/decal/cleanable/blood/gibs/body), /list (/list))
+[13:36:11]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[13:36:11]Atoms (/datum/controller/subsystem/atoms): Initialize(597598)
+[13:36:11]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[13:36:11]Cannot execute null.add reagent().
+[13:36:11]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:11]  source file: robots.dm,52
+[13:36:11]  usr: null
+[13:36:11]  src: the motor oil (/obj/effect/decal/cleanable/oil)
+[13:36:11]  src.loc: null
+[13:36:11]  call stack:
+[13:36:11]the motor oil (/obj/effect/decal/cleanable/oil): Initialize(1)
+[13:36:11]Atoms (/datum/controller/subsystem/atoms): InitAtom(the motor oil (/obj/effect/decal/cleanable/oil), /list (/list))
+[13:36:11]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[13:36:11]Atoms (/datum/controller/subsystem/atoms): Initialize(597598)
+[13:36:11]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[13:36:11]Cannot execute null.add reagent().
+[13:36:11]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[13:36:11]  source file: humans.dm,57
+[13:36:11]  usr: null
+[13:36:11]  src: the gibs (/obj/effect/decal/cleanable/blood/gibs/down)
+[13:36:11]  src.loc: null
+[13:36:11]  call stack:
+[13:36:11]the gibs (/obj/effect/decal/cleanable/blood/gibs/down): Initialize(1, null)
+[13:36:11]Atoms (/datum/controller/subsystem/atoms): InitAtom(the gibs (/obj/effect/decal/cleanable/blood/gibs/down), /list (/list))
+[13:36:11]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[13:36:11]Atoms (/datum/controller/subsystem/atoms): Initialize(597598)
+[13:36:11]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[13:36:11]Cannot execute null.add reagent().
+[13:36:11]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:11]  source file: robots.dm,52
+[13:36:11]  usr: null
+[13:36:11]  src: the motor oil (/obj/effect/decal/cleanable/oil)
+[13:36:11]  src.loc: null
+[13:36:11]  call stack:
+[13:36:11]the motor oil (/obj/effect/decal/cleanable/oil): Initialize(1)
+[13:36:11]Atoms (/datum/controller/subsystem/atoms): InitAtom(the motor oil (/obj/effect/decal/cleanable/oil), /list (/list))
+[13:36:11]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[13:36:11]Atoms (/datum/controller/subsystem/atoms): Initialize(597598)
+[13:36:11]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[13:36:11]Cannot execute null.add reagent().
+[13:36:11]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[13:36:11]  source file: humans.dm,57
+[13:36:11]  usr: null
+[13:36:11]  src: the gibs (/obj/effect/decal/cleanable/blood/gibs/limb)
+[13:36:11]  src.loc: null
+[13:36:11]  call stack:
+[13:36:11]the gibs (/obj/effect/decal/cleanable/blood/gibs/limb): Initialize(1, null)
+[13:36:11]Atoms (/datum/controller/subsystem/atoms): InitAtom(the gibs (/obj/effect/decal/cleanable/blood/gibs/limb), /list (/list))
+[13:36:11]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[13:36:11]Atoms (/datum/controller/subsystem/atoms): Initialize(597598)
+[13:36:11]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[13:36:12]Cannot execute null.add reagent().
+[13:36:12]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[13:36:12]  source file: humans.dm,57
+[13:36:12]  usr: null
+[13:36:12]  src: the gibs (/obj/effect/decal/cleanable/blood/gibs/torso)
+[13:36:12]  src.loc: null
+[13:36:12]  call stack:
+[13:36:12]the gibs (/obj/effect/decal/cleanable/blood/gibs/torso): Initialize(1, null)
+[13:36:12]Atoms (/datum/controller/subsystem/atoms): InitAtom(the gibs (/obj/effect/decal/cleanable/blood/gibs/torso), /list (/list))
+[13:36:12]Atoms (/datum/controller/subsystem/atoms): InitializeAtoms(null)
+[13:36:12]Atoms (/datum/controller/subsystem/atoms): Initialize(597598)
+[13:36:12]Master (/datum/controller/master): Initialize(10, 0)
+runtime error: 
+[13:36:13]Cannot execute null.add reagent().
+[13:36:13]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:13]  source file: robots.dm,52
+runtime error: 
+[13:36:13]Cannot execute null.add reagent().
+[13:36:13]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:13]  source file: robots.dm,52
+runtime error: 
+[13:36:13]Cannot execute null.add reagent().
+[13:36:13]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:13]  source file: robots.dm,52
+runtime error: 
+[13:36:13]Cannot execute null.add reagent().
+[13:36:13]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:13]  source file: robots.dm,52
+runtime error: 
+[13:36:13]Cannot execute null.add reagent().
+[13:36:13]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:13]  source file: robots.dm,52
+runtime error: 
+[13:36:13]Cannot execute null.add reagent().
+[13:36:13]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:13]  source file: robots.dm,52
+runtime error: 
+[13:36:14]Cannot execute null.add reagent().
+[13:36:14]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:14]  source file: robots.dm,52
+runtime error: 
+[13:36:14]Cannot execute null.add reagent().
+[13:36:14]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:14]  source file: robots.dm,52
+runtime error: 
+[13:36:14]Cannot execute null.add reagent().
+[13:36:14]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:14]  source file: robots.dm,52
+runtime error: 
+[13:36:14]Cannot execute null.add reagent().
+[13:36:14]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:14]  source file: robots.dm,52
+runtime error: 
+[13:36:15]Cannot execute null.add reagent().
+[13:36:15]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:15]  source file: robots.dm,52
+runtime error: 
+[13:36:15]Cannot execute null.add reagent().
+[13:36:15]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:15]  source file: robots.dm,52
+runtime error: 
+[13:36:16]Cannot execute null.add reagent().
+[13:36:16]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:16]  source file: robots.dm,52
+runtime error: 
+[13:36:16]Cannot execute null.add reagent().
+[13:36:16]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:16]  source file: robots.dm,52
+runtime error: 
+[13:36:20]Cannot execute null.add reagent().
+[13:36:20]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:20]  source file: robots.dm,52
+runtime error: 
+[13:36:20]Cannot execute null.add reagent().
+[13:36:20]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:20]  source file: robots.dm,52
+runtime error: 
+[13:36:20]Cannot execute null.add reagent().
+[13:36:20]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:20]  source file: robots.dm,52
+runtime error: 
+[13:36:21]Cannot execute null.add reagent().
+[13:36:21]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:21]  source file: robots.dm,52
+runtime error: 
+[13:36:21]Cannot execute null.add reagent().
+[13:36:21]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:21]  source file: robots.dm,52
+runtime error: 
+[13:36:21]Cannot execute null.add reagent().
+[13:36:21]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:21]  source file: robots.dm,52
+runtime error: 
+[13:36:22]Cannot execute null.add reagent().
+[13:36:22]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:22]  source file: robots.dm,52
+runtime error: 
+[13:36:24]Cannot execute null.add reagent().
+[13:36:24]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:24]  source file: robots.dm,52
+runtime error: 
+[13:36:24]Cannot execute null.add reagent().
+[13:36:24]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:24]  source file: robots.dm,52
+runtime error: 
+[13:36:25]Cannot execute null.add reagent().
+[13:36:25]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:25]  source file: robots.dm,52
+runtime error: 
+[13:36:25]Cannot execute null.add reagent().
+[13:36:25]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:25]  source file: robots.dm,52
+runtime error: 
+[13:36:25]Cannot execute null.add reagent().
+[13:36:25]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:25]  source file: robots.dm,52
+runtime error: 
+[13:36:26]Cannot execute null.add reagent().
+[13:36:26]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:26]  source file: robots.dm,52
+runtime error: 
+[13:36:26]Cannot execute null.add reagent().
+[13:36:26]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:26]  source file: robots.dm,52
+runtime error: 
+[13:36:27]Cannot execute null.add reagent().
+[13:36:27]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:27]  source file: robots.dm,52
+runtime error: 
+[13:36:28]Cannot execute null.add reagent().
+[13:36:28]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:28]  source file: robots.dm,52
+runtime error: 
+[13:36:28]Cannot execute null.add reagent().
+[13:36:28]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:28]  source file: robots.dm,52
+runtime error: 
+[13:36:28]Cannot execute null.add reagent().
+[13:36:28]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:28]  source file: robots.dm,52
+runtime error: 
+[13:36:29]Cannot execute null.add reagent().
+[13:36:29]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[13:36:29]  source file: humans.dm,57
+runtime error: 
+[13:36:29]Cannot execute null.add reagent().
+[13:36:29]proc name: Initialize (/obj/effect/decal/cleanable/blood/gibs/Initialize)
+[13:36:29]  source file: humans.dm,57
+runtime error: 
+[13:36:29]Cannot execute null.add reagent().
+[13:36:29]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:29]  source file: robots.dm,52
+runtime error: 
+[13:36:30]Cannot execute null.add reagent().
+[13:36:30]proc name: Initialize (/obj/effect/decal/cleanable/ash/Initialize)
+[13:36:30]  source file: misc.dm,16
+runtime error: 
+[13:36:30]Cannot execute null.add reagent().
+[13:36:30]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:30]  source file: robots.dm,52
+runtime error: 
+[13:36:30]Cannot execute null.add reagent().
+[13:36:30]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:30]  source file: robots.dm,52
+runtime error: 
+[13:36:30]Cannot execute null.add reagent().
+[13:36:30]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:30]  source file: robots.dm,52
+runtime error: 
+[13:36:30]Cannot execute null.add reagent().
+[13:36:30]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:30]  source file: robots.dm,52
+runtime error: 
+[13:36:30]Cannot execute null.add reagent().
+[13:36:30]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:30]  source file: robots.dm,52
+runtime error: 
+[13:36:30]Cannot execute null.add reagent().
+[13:36:30]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:30]  source file: robots.dm,52
+runtime error: 
+[13:36:30]Cannot execute null.add reagent().
+[13:36:30]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:30]  source file: robots.dm,52
+runtime error: 
+[13:36:30]Cannot execute null.add reagent().
+[13:36:30]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:30]  source file: robots.dm,52
+runtime error: 
+[13:36:30]Cannot execute null.add reagent().
+[13:36:30]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:30]  source file: robots.dm,52
+runtime error: 
+[13:36:30]Cannot execute null.add reagent().
+[13:36:30]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:30]  source file: robots.dm,52
+runtime error: 
+[13:36:31]Cannot execute null.add reagent().
+[13:36:31]proc name: Initialize (/obj/effect/decal/cleanable/oil/Initialize)
+[13:36:31]  source file: robots.dm,52
+Initialized 902318 atoms
+Initialized Atoms subsystem within 67.8 seconds!
+Initialized Language subsystem within 0 seconds!
+Initialized Machines subsystem within 1.2 seconds!
+Initialized Circuit subsystem within 0 seconds!
+Initialized Weather subsystem within 0 seconds!
+## WARNING: There are 2 active turfs at roundstart, this is a mapping error caused by a difference of the air between the adjacent turfs. You can see its coordinates using "Mapping -> Show roundstart AT list" verb (debug verbs required)
+## WARNING: HEY! LISTEN! 0.1 seconds were wasted processing 2 turf(s) (connected to 37 other turfs) with atmos differences at round start.
+Initialized Atmospherics subsystem within 19.4 seconds!
+Initialized Minimap subsystem within 0 seconds!
+Initialized Assets subsystem within 0.5 seconds!
+Initialized Icon Smoothing subsystem within 7.3 seconds!
+Initialized Overlay subsystem within 25.3 seconds!
+Initialized XKeyScore subsystem within 0 seconds!
+Initialized Lighting subsystem within 17.9 seconds!
+Initialized Shuttle subsystem within 36.3 seconds!
+Initialized Squeak subsystem within 0 seconds!
+Loaded 0 engraved messages on map Delta Station
+Initialized Persistence subsystem within 0.2 seconds!
+Initializations complete within 230 seconds!
+Game start took 0s
+runtime error: 
+[13:39:11]Cannot execute null.add reagent().
+runtime error: 
+[13:39:11]Cannot execute null.add reagent().
+runtime error: 
+[13:39:11]Cannot execute null.add reagent().
+runtime error: 
+[13:39:11]Cannot execute null.add reagent().
+runtime error: 
+[13:39:11]Cannot execute null.add reagent().
+runtime error: 
+[13:39:18]Cannot execute null.add reagent().
+runtime error: 
+[13:39:26]Cannot execute null.add reagent().
+runtime error: 
+[13:39:26]Cannot execute null.add reagent().
+runtime error: 
+[13:39:26]Cannot execute null.add reagent().
+runtime error: 
+[13:39:26]Cannot execute null.add reagent().
+runtime error: 
+[13:39:26]Cannot execute null.add reagent().
+runtime error: 
+[13:39:31]Cannot execute null.add reagent().
+runtime error: 
+[13:39:31]Cannot execute null.add reagent().
+runtime error: 
+[13:39:31]Cannot execute null.add reagent().
+runtime error: 
+[13:39:31]Cannot execute null.add reagent().
+runtime error: 
+[13:39:32]Cannot execute null.add reagent().
+runtime error: 
+[13:39:35]Cannot execute null.add reagent().
+runtime error: 
+[13:39:35]Cannot execute null.add reagent().
+runtime error: 
+[13:39:36]Cannot execute null.add reagent().
+runtime error: 
+[13:39:36]Cannot execute null.add reagent().
+runtime error: 
+[13:39:36]Cannot execute null.add reagent().
+runtime error: 
+[13:39:51]Cannot execute null.add reagent().
+runtime error: 
+[13:39:51]Cannot execute null.add reagent().
+runtime error: 
+[13:39:51]Cannot execute null.add reagent().
+runtime error: 
+[13:39:51]Cannot execute null.add reagent().
+runtime error: 
+[13:39:51]Cannot execute null.add reagent().
+runtime error: 
+[13:39:55]Cannot execute null.add reagent().
+runtime error: 
+[13:39:55]Cannot execute null.add reagent().
+runtime error: 
+[13:39:55]Cannot execute null.add reagent().
+runtime error: 
+[13:39:55]Cannot execute null.add reagent().
+runtime error: 
+[13:39:55]Cannot execute null.add reagent().
+runtime error: 
+[13:39:56]Cannot execute null.add reagent().
+runtime error: 
+[13:39:56]Cannot execute null.add reagent().
+runtime error: 
+[13:39:56]Cannot execute null.add reagent().
+runtime error: 
+[13:39:56]Cannot execute null.add reagent().
+runtime error: 
+[13:39:56]Cannot execute null.add reagent().
+## WARNING: A ref was requested of an object with use_tag set but no tag: the new player in code/__HELPERS/unsorted.dm at line 1500 src:  usr: the new player.
+runtime error: 
+[13:40:06]Cannot read null.key
+runtime error: 
+[13:48:56]Cannot execute null.add reagent().
+runtime error: 
+[13:57:40]Cannot execute null.add reagent().
+runtime error: 
+[14:12:42]Cannot execute null.add reagent().
+runtime error: 
+[14:12:42]Cannot execute null.add reagent().
+runtime error: 
+[14:13:03]Cannot execute null.add reagent().
+runtime error: 
+[14:13:03]Cannot execute null.add reagent().
+runtime error: 
+[14:14:37]Cannot execute null.add reagent().
+runtime error: 
+[14:14:39]Cannot execute null.add reagent().
+runtime error: 
+[14:16:43]Cannot execute null.add reagent().
+### VarEdit by AlcaroIsAFrick/(Carlito): /obj/machinery/hydroponics/constructable maxnutri=10 => 9999
+### VarEdit by AlcaroIsAFrick/(Carlito): /obj/machinery/hydroponics/constructable nutrilevel=3 => 9999
+### VarEdit by AlcaroIsAFrick/(Carlito): /obj/machinery/hydroponics/constructable maxwater=100 => 1e+011
+### VarEdit by AlcaroIsAFrick/(Carlito): /obj/machinery/hydroponics/constructable waterlevel=100 => 1e+020
+### VarEdit by AlcaroIsAFrick/(Carlito): /obj/machinery/hydroponics/constructable speed_process=0 => 1e+012
+### VarEdit by AlcaroIsAFrick/(Carlito): /obj/machinery/hydroponics/constructable cycledelay=200 => 1
+### VarEdit by AlcaroIsAFrick/(Carlito): /obj/machinery/hydroponics/constructable cycledelay=200 => 1
+### VarEdit by AlcaroIsAFrick/(Carlito): /obj/machinery/hydroponics/constructable maxnutri=10 => 99999
+### VarEdit by AlcaroIsAFrick/(Carlito): /obj/machinery/hydroponics/constructable nutrilevel=2 => 2
+### VarEdit by AlcaroIsAFrick/(Carlito): /obj/machinery/hydroponics/constructable nutrilevel=2 => 99999
+### VarEdit by AlcaroIsAFrick/(Carlito): /obj/machinery/hydroponics/constructable maxwater=100 => 99999
+### VarEdit by AlcaroIsAFrick/(Carlito): /obj/machinery/hydroponics/constructable waterlevel=83 => 99999
+runtime error: 
+[14:22:37]Cannot execute null.add reagent().
+runtime error: 
+[14:22:37]Cannot execute null.add reagent().
+runtime error: 
+[14:22:37]Cannot execute null.add reagent().
+runtime error: 
+[14:23:20]Cannot execute null.add reagent().
+runtime error: 
+[14:23:24]Cannot execute null.add reagent().
+runtime error: 
+[14:23:26]Cannot execute null.add reagent().
+runtime error: 
+[14:23:28]Cannot execute null.add reagent().
+runtime error: 
+[14:23:28]Cannot execute null.add reagent().
+runtime error: 
+[14:23:28]Cannot execute null.add reagent().
+runtime error: 
+[14:23:28]Cannot execute null.add reagent().
+runtime error: 
+[14:23:28]Cannot execute null.add reagent().
+runtime error: 
+[14:23:29]Cannot execute null.add reagent().
+runtime error: 
+[14:23:29]Cannot execute null.add reagent().
+runtime error: 
+[14:23:31]Cannot execute null.add reagent().
+runtime error: 
+[14:23:31]Cannot execute null.add reagent().
+runtime error: 
+[14:23:31]Cannot execute null.add reagent().
+runtime error: 
+[14:23:32]Cannot execute null.add reagent().
+runtime error: 
+[14:23:33]Cannot execute null.add reagent().
+runtime error: 
+[14:23:34]Cannot execute null.add reagent().
+runtime error: 
+[14:23:34]Cannot execute null.add reagent().
+runtime error: 
+[14:23:34]Cannot execute null.add reagent().
+runtime error: 
+[14:23:35]Cannot execute null.add reagent().
+runtime error: 
+[14:23:36]Cannot execute null.add reagent().
+runtime error: 
+[14:23:36]Cannot execute null.add reagent().
+runtime error: 
+[14:23:46]Cannot execute null.add reagent().
+runtime error: 
+[14:23:47]Cannot execute null.add reagent().
+runtime error: 
+[14:23:47]Cannot execute null.add reagent().
+runtime error: 
+[14:24:03]Cannot execute null.add reagent().
+runtime error: 
+[14:24:04]Cannot execute null.add reagent().
+runtime error: 
+[14:24:08]Cannot execute null.add reagent().
+runtime error: 
+[14:24:08]Cannot execute null.add reagent().
+runtime error: 
+[14:25:47]Cannot execute null.add reagent().
+runtime error: 
+[14:40:49]list index out of bounds
+runtime error: 
+[14:40:53]list index out of bounds
+runtime error: 
+[14:40:54]list index out of bounds
+runtime error: 
+[14:42:02]Cannot execute null.add reagent().
+runtime error: 
+[14:42:02]Cannot execute null.add reagent().
+runtime error: 
+[14:42:21]Cannot execute null.add reagent().
+runtime error: 
+[14:42:21]Cannot execute null.add reagent().
+runtime error: 
+[14:47:12]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:13]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:14]Cannot read null.dir
+runtime error: 
+[14:47:14]Cannot read null.dir
+runtime error: 
+[14:47:15]Cannot read null.dir
+runtime error: 
+[14:47:15]Cannot read null.dir
+runtime error: 
+[14:47:17]Cannot read null.dir
+runtime error: 
+[14:47:17]Cannot read null.dir
+runtime error: 
+[14:47:17]Cannot read null.dir
+runtime error: 
+[14:47:17]Cannot read null.dir
+runtime error: 
+[14:47:19]Cannot read null.dir
+runtime error: 
+[14:47:19]Cannot read null.dir
+runtime error: 
+[14:47:20]Cannot read null.dir
+runtime error: 
+[14:47:20]Cannot read null.dir
+runtime error: 
+[14:47:22]Cannot read null.dir
+runtime error: 
+[14:47:22]Cannot read null.dir
+runtime error: 
+[14:47:22]Cannot read null.dir
+runtime error: 
+[14:47:22]Cannot read null.dir
+runtime error: 
+[14:47:23]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:23]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:24]Cannot read null.dir
+runtime error: 
+[14:47:25]Cannot read null.dir
+runtime error: 
+[14:47:25]Cannot read null.dir
+runtime error: 
+[14:47:25]Cannot read null.dir
+runtime error: 
+[14:47:25]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:25]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:27]Cannot read null.dir
+runtime error: 
+[14:47:27]Cannot read null.dir
+runtime error: 
+[14:47:27]Cannot read null.dir
+runtime error: 
+[14:47:27]Cannot read null.dir
+runtime error: 
+[14:47:28]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:28]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:28]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:29]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:30]Cannot read null.dir
+runtime error: 
+[14:47:30]Cannot read null.dir
+runtime error: 
+[14:47:30]Cannot read null.dir
+runtime error: 
+[14:47:31]Cannot read null.dir
+runtime error: 
+[14:47:31]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:32]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:33]Cannot read null.dir
+runtime error: 
+[14:47:33]Cannot read null.dir
+runtime error: 
+[14:47:33]Cannot read null.dir
+runtime error: 
+[14:47:33]Cannot read null.dir
+runtime error: 
+[14:47:34]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:34]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:34]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:35]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:36]Cannot read null.dir
+runtime error: 
+[14:47:36]Cannot read null.dir
+runtime error: 
+[14:47:36]Cannot read null.dir
+runtime error: 
+[14:47:36]Cannot read null.dir
+runtime error: 
+[14:47:36]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:37]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:37]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:37]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:38]Cannot read null.dir
+runtime error: 
+[14:47:38]Cannot read null.dir
+runtime error: 
+[14:47:38]Cannot read null.dir
+runtime error: 
+[14:47:38]Cannot read null.dir
+runtime error: 
+[14:47:39]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:39]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:39]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:40]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:40]Cannot read null.dir
+runtime error: 
+[14:47:40]Cannot read null.dir
+runtime error: 
+[14:47:41]Cannot read null.dir
+runtime error: 
+[14:47:41]Cannot read null.dir
+runtime error: 
+[14:47:41]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:42]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:42]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:42]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:43]Cannot read null.dir
+runtime error: 
+[14:47:43]Cannot read null.dir
+runtime error: 
+[14:47:43]Cannot read null.dir
+runtime error: 
+[14:47:43]Cannot read null.dir
+runtime error: 
+[14:47:44]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:44]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:44]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:44]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:45]Cannot read null.dir
+runtime error: 
+[14:47:45]Cannot read null.dir
+runtime error: 
+[14:47:45]Cannot read null.dir
+runtime error: 
+[14:47:45]Cannot read null.dir
+runtime error: 
+[14:47:46]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:46]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:46]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:47]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:47]Cannot read null.dir
+runtime error: 
+[14:47:47]Cannot read null.dir
+runtime error: 
+[14:47:47]Cannot read null.dir
+runtime error: 
+[14:47:47]Cannot read null.dir
+runtime error: 
+[14:47:48]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:48]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:48]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:49]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:49]Cannot read null.dir
+runtime error: 
+[14:47:49]Cannot read null.dir
+runtime error: 
+[14:47:49]Cannot read null.dir
+runtime error: 
+[14:47:49]Cannot read null.dir
+runtime error: 
+[14:47:50]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:51]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:51]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:51]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:51]Cannot read null.dir
+runtime error: 
+[14:47:51]Cannot read null.dir
+runtime error: 
+[14:47:51]Cannot read null.dir
+runtime error: 
+[14:47:51]Cannot read null.dir
+runtime error: 
+[14:47:52]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:53]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:53]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:53]Cannot read null.dir
+runtime error: 
+[14:47:53]Cannot read null.dir
+runtime error: 
+[14:47:53]Cannot read null.dir
+runtime error: 
+[14:47:53]Cannot read null.dir
+runtime error: 
+[14:47:54]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:55]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:55]Cannot read null.buckled_mobs
+runtime error: 
+[14:47:55]Cannot read null.dir
+runtime error: 
+[14:47:55]Cannot read null.dir
+runtime error: 
+[14:47:55]Cannot read null.dir
+runtime error: 
+[14:47:55]Cannot read null.dir
+runtime error: 
+[14:47:57]Cannot read null.dir
+runtime error: 
+[14:47:57]Cannot read null.dir
+runtime error: 
+[14:47:58]Cannot read null.dir
+runtime error: 
+[14:47:58]Cannot read null.dir
+runtime error: 
+[14:48:00]Cannot read null.dir
+runtime error: 
+[14:48:00]Cannot read null.dir
+runtime error: 
+[14:48:00]Cannot read null.dir
+runtime error: 
+[14:48:00]Cannot read null.dir
+runtime error: 
+[14:48:01]Cannot read null.buckled_mobs
+runtime error: 
+[14:48:02]Cannot read null.dir
+runtime error: 
+[14:48:02]Cannot read null.dir
+runtime error: 
+[14:48:02]Cannot read null.dir
+runtime error: 
+[14:48:02]Cannot read null.dir
+runtime error: 
+[14:48:04]Cannot read null.dir
+runtime error: 
+[14:48:04]Cannot read null.dir
+runtime error: 
+[14:48:04]Cannot read null.dir
+runtime error: 
+[14:48:04]Cannot read null.dir
+runtime error: 
+[14:48:06]Cannot read null.dir
+runtime error: 
+[14:48:06]Cannot read null.dir
+runtime error: 
+[14:48:06]Cannot read null.dir
+runtime error: 
+[14:48:06]Cannot read null.dir
+runtime error: 
+[14:48:08]Cannot read null.dir
+runtime error: 
+[14:48:08]Cannot read null.dir
+runtime error: 
+[14:48:08]Cannot read null.dir
+runtime error: 
+[14:48:08]Cannot read null.dir
+runtime error: 
+[14:48:10]Cannot read null.dir
+runtime error: 
+[14:48:10]Cannot read null.dir
+runtime error: 
+[14:48:10]Cannot read null.dir
+runtime error: 
+[14:48:10]Cannot read null.dir
+runtime error: 
+[14:48:12]Cannot read null.dir
+runtime error: 
+[14:48:12]Cannot read null.dir
