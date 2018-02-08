@@ -1,5 +1,9 @@
 # Retards In Space
-don't host this server or else i will hack ur pc and u die xd
-
-
-firesho is gay
+Firesho = Gay
+#What is this
+TGstation edit
+#When did you fork
+17-11-2017
+ok
+#is firesho gay
+yea
