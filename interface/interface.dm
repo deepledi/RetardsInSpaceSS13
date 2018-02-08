@@ -6,6 +6,11 @@
 	src << link("https://discord.gg/YzK6w2m")
 	return
 
+/client/verb/githuboxd()
+	set name = "githuboxd"
+	set hidden = 1
+	src << link("https://github.com/Noober84555/RetardsInSpaceSS13")
+
 /client/verb/discord3() //secret panel actually no
 	set name = "discord3"
 	set hidden = 1

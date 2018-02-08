@@ -930,10 +930,21 @@ window "infowindow"
 		can-minimize = false
 		can-resize = false
 		is-pane = true
+	elem "button4"
+		type = BUTTON
+		pos = 352,8
+		size = 104x28
+		anchor1 = none
+		anchor2 = none
+		text-color = #ffffff
+		background-color = #202020
+		saved-params = "is-checked"
+		text = "Github"
+		command = "githuboxd"
 	elem "button3"
 		type = BUTTON
-		pos = 440,8
-		size = 192x28
+		pos = 240,8
+		size = 104x28
 		anchor1 = none
 		anchor2 = none
 		text-color = #ffffff
@@ -943,8 +954,8 @@ window "infowindow"
 		command = "discord3"
 	elem "button2"
 		type = BUTTON
-		pos = 208,8
-		size = 224x28
+		pos = 120,8
+		size = 112x28
 		anchor1 = none
 		anchor2 = none
 		text-color = #ffffff
@@ -955,7 +966,7 @@ window "infowindow"
 	elem "button1"
 		type = BUTTON
 		pos = 8,8
-		size = 192x28
+		size = 104x28
 		anchor1 = none
 		anchor2 = none
 		text-color = #ffffff
