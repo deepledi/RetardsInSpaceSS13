@@ -64,7 +64,7 @@
 				else
 					output += "<p><a href='byond://?src=[REF(src)];showpoll=1'>Show Player Polls</A></p>"
 	//src << browse(output,"window=playersetup;size=210x240;can_close=0")
-	output += "<br>Read the rules before playing!"
+	output += "<br>Read the rules before playing! Check the changelog!"
 	var/datum/browser/popup = new(src, "playersetup", "<div align='center'>Lobby</div>", 620, 340)
 	popup.set_window_options("can_close=0")
 	popup.set_content(output)
