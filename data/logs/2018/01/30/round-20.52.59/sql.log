@@ -1,4 +1,0 @@
-[21:05:20]SQL: not connected | Query used: SELECT reason FROM SS13_ban WHERE ckey = '' AND (bantype = 'JOB_PERMABAN'  OR (bantype = 'JOB_TEMPBAN' AND expiration_time > Now())) AND isnull(unbanned) AND job = ''
-[21:05:20]SQL: not connected | Query used: SELECT reason FROM SS13_ban WHERE ckey = '' AND (bantype = 'JOB_PERMABAN'  OR (bantype = 'JOB_TEMPBAN' AND expiration_time > Now())) AND isnull(unbanned) AND job = ''
-[21:12:15]SQL: not connected | Query used: SELECT reason FROM SS13_ban WHERE ckey = '' AND (bantype = 'JOB_PERMABAN'  OR (bantype = 'JOB_TEMPBAN' AND expiration_time > Now())) AND isnull(unbanned) AND job = ''
-[21:12:15]SQL: not connected | Query used: SELECT reason FROM SS13_ban WHERE ckey = '' AND (bantype = 'JOB_PERMABAN'  OR (bantype = 'JOB_TEMPBAN' AND expiration_time > Now())) AND isnull(unbanned) AND job = ''
