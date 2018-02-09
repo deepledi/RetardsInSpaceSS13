@@ -40,3 +40,10 @@
 	id = "aranesp"
 	results = list("aranesp" = 3)
 	required_reagents = list("epinephrine" = 1, "atropine" = 1, "morphine" = 1)
+	
+/datum/chemical_reaction/fentanyl
+	name = "Fentanyl"
+	id = "fentanyl"
+	results = list("fentanyl" = 3)
+	required_reagents = list("sugar" = 1, "atropine" = 1, "morphine" = 1, "saltpetre" = 1, "ammonia" = 2)
+	required_temp = 402
