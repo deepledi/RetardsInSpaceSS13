@@ -47,7 +47,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	var/allow_midround_antag = 1
 	var/preferred_map = null
 	var/pda_style = MONO
-	var/peeRateDefault = 0
+	var/peeRateDefault = 2 //Now pee pee is forced.
 	var/uses_glasses_colour = 0
 
 	//character preferences
@@ -878,7 +878,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 						poopggantagrole = poo //be traitor, changeling, or devil!
 
 				if("damn")
-					var/poo = input(user, "Pee Rate (Must be 1-5 if you want average, decimals allowed.)", "Character Preference") in list(0,1,2,3,4,5)
+					var/poo = input(user, "Pee Rate (Must be 1-5 if you want average, decimals allowed.)", "Character Preference") in list(2,3,4,5)
 					if(poo)
 						peeRateDefault = poo //pee
 				if("poopsggg")
@@ -1333,8 +1333,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 		organ_eyes.old_eye_color = eye_color
 	character.hair_color = hair_color
 	character.facial_hair_color = facial_hair_color
-	if(peeRateDefault != 0)
-		character.PeeRate = peeRateDefault/20 //5 into 0.1
+	character.PeeRate = peeRateDefault/20 //5 into 0.1
 
 	character.skin_tone = skin_tone
 	if(pref_species.id == "novakid")

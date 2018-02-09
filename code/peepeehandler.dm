@@ -1,5 +1,5 @@
 mob
-	var/PeeRate = 0
+	var/PeeRate = 0.2
 	var/PeeMax = 100
 	var/PeeColor = "#FFFF00"
 	var/PeeAmount = -15
