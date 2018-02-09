@@ -337,3 +337,49 @@
 		M.adjustOxyLoss(1, 0)
 	..()
 	. = 1
+	
+/datum/reagent/drug/fentanyl
+	name = "Fentanyl"
+	id - "fentanyl"
+	description = "Extremely strong opioid analgesic. 80 to 500 times stronger than morphine. Extremely addictive! Don't overdose.. "
+	reagent_state = POWDER
+	color - "#FFFFFF"
+	overdose_threshold = 7
+	addiction_threshold = 5
+
+/datum/reagent/drug/fentanyl/on_mob_life(mob/living/M)
+	var/high_message = pick("You feel euphoric.", "You feel extremely relaxed.", "Your pains seem to disappear!")
+	if(prob(4))
+		to_chat(M, "<span class='notice'>[high_message]</span>")
+	M.adjustStaminaloss(-26, 0)
+	M.adjustBrainloss(5,0)
+	M.adjustToxloss(1,0)
+	if(prob(10))
+		M.emote("laugh")
+	
+	
+/datum/reagent/drug/fentanyl/overdose_process(mob/living/M)
+	M.adjustStaminaloss(20,0)
+	M.hallucination += 20
+	M.adjustOxyloss(10,0)
+	var/overdose_message = pick("You can hardly breathe!", "Your chest feels weird...", "Nothing hurts at all!", "You feel extremely confused?", "You feel dizzy... Woah..", "You feel extremely tired!", "You feel faint.", "You feel like you're about to pass out!",
+	M.Jitter(40)
+	M.Dizzy(40)
+	if(prob(3))
+		to_chat(M, <span class='notice'>[overdose_message]</span>")
+	if(prob(10))
+		M.emote("collapse")
+		M.adjustKnockdown(10,0)
+	if(prob(5))
+		M.emote("gasp")
+	if(prob(10))
+		M.emote("twitch")
+	if(prob(5))
+		M.emote("cough")
+		M.emote("cough")
+		M.emote("cough")
+		M.emote("collapse")
+	
+	
+
+	
