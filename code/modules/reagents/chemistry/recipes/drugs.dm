@@ -45,5 +45,5 @@
 	name = "Fentanyl"
 	id = "fentanyl"
 	results = list("fentanyl" = 3)
-	required_reagents = list("sugar" = 1, "atropine" = 1, "morphine" = 1, "saltpetre" = 1, "ammonia" = 2)
+	required_reagents = list("potassium" = 1, "mercury" = 1, "morphine" = 1, "saltpetre" = 1, "ammonia" = 2)
 	required_temp = 402
